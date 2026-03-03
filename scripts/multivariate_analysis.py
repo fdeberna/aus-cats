@@ -4,7 +4,7 @@ import pandas as pd
 import statsmodels.api as sm
 import numpy as np
 
-INPUT_FILE = "cases_features.csv"
+INPUT_FILE = "data/cases_features.csv"
 
 
 def main():
@@ -13,11 +13,7 @@ def main():
     # Select predictors (keep model small!)
     predictors = [
         "age",
-        "male",
-        "cobalamin_low",
-        "folate_abn",
-        "tli_abn",
-        "pli_abn"
+        "gender","breed"
     ]
 
     X = df[predictors]
