@@ -90,6 +90,16 @@ Tests used:
 - chi-square for multicategory variables
 - Benjamini-Hochberg FDR correction (`q_value`)
 
+### How FDR Is Applied in `univariate_analysis_full.py`
+
+In `scripts/univariate_analysis_full.py`, FDR correction is applied after all univariate tests are collected:
+- all test p-values are stored in `results_df["p_value"]`
+- rows with missing p-values are removed (`dropna()`)
+- adjusted p-values are computed with `statsmodels.stats.multitest.multipletests(..., method="fdr_bh")`
+- the adjusted values are saved to `results_df["q_value"]`
+
+This means FDR is controlled across the full set of tested features in that run (not separately by test type). In practice, use `q_value < 0.05` as a common threshold for post-correction significance.
+
 4. Run interaction models (two predictors)
 
 ```bash

@@ -3,4 +3,5 @@ data
 *.bin
 *.log
 __pycache__/
+notes.txt
 .idea/

@@ -5,7 +5,7 @@ import numpy as np
 import re
 
 INPUT_FILE = "data/cases_cleaned.csv"
-OUTPUT_FILE = "data/cases_features.csv"
+OUTPUT_FILE = "data/cases_features_v2.csv"
 
 MIN_TOKEN_COUNT = 5
 
@@ -153,16 +153,22 @@ def main():
     # Lab Abnormal Flags
     # -------------------------------
 
-    df["cobalamin_low"] = (df["cobalamin (290-1500)"] < 800).astype(float)
+    df["cobalamin_low"] = (df["cobalamin (290-1500)"] < 600).astype(float)
 
-    df["folate_abn"] = (
-        (df["folate (9.7-21.6)"] < 9.7) |
+    df["folate_high"] = (
         (df["folate (9.7-21.6)"] > 21.6)
     ).astype(float)
 
-    df["tli_abn"] = (
-        (df["TLI (12-82)"] < 12) |
+    df["folate_low"] = (
+        (df["folate (9.7-21.6)"] < 9.7)
+    ).astype(float)
+
+    df["tli_high"] = (
         (df["TLI (12-82)"] > 82)
+    ).astype(float)
+
+    df["tli_low"] = (
+        (df["TLI (12-82)"] < 12)
     ).astype(float)
 
     df["pli_abn"] = (

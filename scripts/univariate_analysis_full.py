@@ -5,8 +5,8 @@ import numpy as np
 from scipy.stats import fisher_exact, chi2_contingency, mannwhitneyu
 from statsmodels.stats.multitest import multipletests
 
-INPUT_FILE = "data/cases_features.csv"
-OUTPUT_FILE = "data/univariate_results_full.csv"
+INPUT_FILE = "data/cases_features_v2.csv"
+OUTPUT_FILE = "data/univariate_results_full_v2.csv"
 
 
 def mann_whitney_test(df, column):
