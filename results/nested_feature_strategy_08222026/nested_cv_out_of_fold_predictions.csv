@@ -1,0 +1,541 @@
+patient_id,repeat,outer_fold,true_target,true_diagnosis,single_pred_prob,pair_pred_prob,selected_single_feature,selected_single_c,selected_pair_feature_1,selected_pair_feature_2,selected_pair_c,selected_pair_interaction_reason,selected_pair_min_joint_cell_count
+Jackson Barry,1,1,0,IBD,0.6513196657323816,0.6407541609050206,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Jilly Noyes,1,1,1,low grade lymphoma,0.8269835579405304,0.8167154452097485,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Katie Hanson,1,1,0,IBD,0.6513196657323816,0.6407541609050206,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Sylvie Comarow,1,1,0,IBD,0.6513196657323816,0.6407541609050206,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Watson Johnson,1,1,1,low grade lymphoma,0.8269835579405304,0.8167154452097485,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Kahlua Beckham,1,1,1,low grade lymphoma,0.8269835579405304,0.8167154452097485,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Benson Chavez,1,1,0,IBD,0.8269835579405304,0.8167154452097485,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Mango Haden,1,1,1,low grade lymphoma,0.8269835579405304,0.8167154452097485,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Nami Tam,1,1,1,low grade lymphoma,0.8269835579405304,0.8167154452097485,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Nabi Strausbagh,1,1,1,low grade lymphoma,0.6513196657323816,0.6407541609050206,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Morty Frame,1,1,1,low grade lymphoma,0.6513196657323816,0.6407541609050206,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Sebastian Summers,1,1,0,IBD,0.8269835579405304,0.8167154452097485,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Sammy Saal,1,1,1,low grade lymphoma,0.6513196657323816,0.8152349636630611,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+No Name Murangi,1,1,1,low grade lymphoma,0.6513196657323816,0.6407541609050206,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Dixon Brown,1,1,1,low grade lymphoma,0.8269835579405304,0.8167154452097485,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Widdle Sipos,1,1,1,low grade lymphoma,0.6513196657323816,0.6407541609050206,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Khush Stefan,1,1,1,low grade lymphoma,0.6513196657323816,0.6407541609050206,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Luna Jackson,1,1,0,IBD,0.6513196657323816,0.6407541609050206,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Zuko Hays,1,1,1,low grade lymphoma,0.8269835579405304,0.8167154452097485,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Teddy Kalomiris,1,1,1,low grade lymphoma,0.8269835579405304,0.8167154452097485,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Lionel Ellis,1,1,0,IBD,0.6513196657323816,0.6407541609050206,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Gus Poon,1,1,1,low grade lymphoma,0.6513196657323816,0.6407541609050206,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Quincy Rehean,1,2,1,low grade lymphoma,0.6658847905501569,0.6967044436775215,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Elliot Grail,1,2,0,IBD,0.6900157852491797,0.7303919137014926,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Teddy Williams,1,2,1,low grade lymphoma,0.7142567239473595,0.7630757805648334,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Luna Luizaga,1,2,0,IBD,0.6616720403207043,0.6907205076496634,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Mittens Bedell,1,2,0,IBD,0.7752849256610698,0.8389464959748977,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Thumper White,1,2,1,low grade lymphoma,0.5462074847379035,0.26769990732739235,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Stella Kuray,1,2,1,low grade lymphoma,0.7544413567818237,0.8141803287351048,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Panther Stefan,1,2,1,low grade lymphoma,0.7799480670633702,0.6468080376057898,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Chavie Hong,1,2,1,low grade lymphoma,0.7404452665752911,0.5698296506970175,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Spooky Kahn,1,2,1,low grade lymphoma,0.5914780136311706,0.5878013351418004,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Luna Weiner,1,2,1,low grade lymphoma,0.48432209471131127,0.42779136276934315,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Sully Kuray,1,2,1,low grade lymphoma,0.7849968146028835,0.8500382608938667,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Iris Stall,1,2,1,low grade lymphoma,0.7514315593366159,0.5908931231302593,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Kaylee Kuijt,1,2,1,low grade lymphoma,0.6314910736464269,0.6471064884717238,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Vinny Andrews,1,2,1,low grade lymphoma,0.6498021829712309,0.6737145917264344,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Dvorak Crosby,1,2,1,low grade lymphoma,0.7695971054239501,0.8323158438870047,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Bernice Morris,1,2,1,low grade lymphoma,0.6940388040074484,0.7359017665056441,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Consome de Pollo Gutierrez,1,2,0,IBD,0.4897116889844011,0.4356879580378209,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Claire Flickinger,1,2,1,low grade lymphoma,0.798118749695107,0.8645481449382412,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Jinx Foster,1,2,0,IBD,0.7630786697723239,0.824597816164637,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Coquito Perez,1,2,0,IBD,0.4705308596397154,0.4077324554468932,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Gatsby Forlines,1,2,0,IBD,0.5250825841564459,0.488138753301089,age,0.3,age,chem_azotemia,1.0,omitted_non_binary_or_categorical_pair,
+Willie Raymond,1,3,0,IBD,0.7415203914565394,0.8334488199430173,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Shrimpy Golenda,1,3,0,IBD,0.6794608386930776,0.7772760379813319,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Goblin Foote,1,3,1,low grade lymphoma,0.6494231881452108,0.7482531482573457,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Mia Sasek,1,3,0,IBD,0.5521552650054533,0.6466636211905445,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+John Watson De Bernardis,1,3,1,low grade lymphoma,0.7234686921036969,0.6539018303317748,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Stella Rahman,1,3,0,IBD,0.5429554871621729,0.6364927846647156,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Pearlie Burkett,1,3,1,low grade lymphoma,0.708081707550128,0.8038301990956979,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Sammy Wyland,1,3,1,low grade lymphoma,0.7444096251450302,0.8359352525869994,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Fred Turner-Au,1,3,1,low grade lymphoma,0.6268789259067273,0.5271556505761475,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Baloo Bullock,1,3,1,low grade lymphoma,0.7620440591980304,0.7062110239726812,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Coco Miscavage,1,3,1,low grade lymphoma,0.8512378475218976,0.8275524011244357,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Cody Batleman,1,3,0,IBD,0.7788233051553756,0.7291055360069221,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Oreo Wenig,1,3,0,IBD,0.8133628863782915,0.8917060218488987,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Lilly Mustillo,1,3,1,low grade lymphoma,0.7457158812249203,0.8370555490335365,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Bear Townsend,1,3,1,low grade lymphoma,0.8026976170396766,0.883538715488061,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Sophie Davis,1,3,1,low grade lymphoma,0.7297525951015794,0.6623789502778359,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Lennie Currier,1,3,1,low grade lymphoma,0.8237781042923626,0.790436981131923,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Madeline Wang,1,3,1,low grade lymphoma,0.759289709093947,0.7024583695246315,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Smeagol Ravin,1,3,1,low grade lymphoma,0.4654061999675928,0.5473421040947523,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Toby Hudiburgh,1,3,0,IBD,0.4990484447616995,0.5867345635848386,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Lucia Drerup,1,3,1,low grade lymphoma,0.7642814407734095,0.7092607238356852,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Teddy Camp,1,3,1,low grade lymphoma,0.6509872939832596,0.7497929642054961,age,0.3,age,AUS_mesenteric lymphadenopathy,1.0,omitted_non_binary_or_categorical_pair,
+Bisco DeBiaso,1,4,0,IBD,0.6431715330214005,0.6036731460306092,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Cole Williams,1,4,0,IBD,0.7351678230504367,0.7058574761453081,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Marilyn Sipos,1,4,1,low grade lymphoma,0.7137985030490501,0.6819221221166257,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Frank Flickinger,1,4,1,low grade lymphoma,0.7809948425690322,0.8697607465429357,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Rubio Vera,1,4,1,low grade lymphoma,0.7948460436730429,0.7731642966872639,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Mia Walling,1,4,1,low grade lymphoma,0.7551689179447413,0.8514620472166495,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Chairman Meow Messer,1,4,1,low grade lymphoma,0.6832621818749605,0.6479153982445672,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Wendy Quinn Ward,1,4,0,IBD,0.7321299420095673,0.702448532928362,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Iggy Horton,1,4,1,low grade lymphoma,0.8407192775573739,0.8251630481568748,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Joey Lyall,1,4,0,IBD,0.7438191862879162,0.7155761903717368,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Zokni Eremenco,1,4,1,low grade lymphoma,0.873968935154951,0.8628311180222931,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Spooky Jackson,1,4,1,low grade lymphoma,0.8185267172233532,0.7999959494328235,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Fry Guiel,1,4,1,low grade lymphoma,0.6279694758914315,0.7524189471573098,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Thor Boffman,1,4,1,low grade lymphoma,0.46295873106597046,0.41202830381411343,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Hooper Fox,1,4,1,low grade lymphoma,0.7225386433451705,0.6916990906499229,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Redford Theurer,1,4,0,IBD,0.9150565036069611,0.9553194072441041,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Midnight Chilton,1,4,0,IBD,0.4488197016779844,0.3975729687535165,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Lucy DeWeese,1,4,0,IBD,0.7888675302711634,0.7663980252849232,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Cookie Morris,1,4,1,low grade lymphoma,0.8174981094904585,0.7988297308985888,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Stewie Sims,1,4,1,low grade lymphoma,0.7467703531805725,0.7188949211032364,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Eleanor Liedtke,1,4,1,low grade lymphoma,0.5859681193602442,0.7162827226246348,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Joey Singer,1,5,1,low grade lymphoma,0.6978002643641471,0.7236806918180695,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Buddy Salzano,1,5,0,IBD,0.7681183917508293,0.7914801324961239,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Ian Comarow,1,5,0,IBD,0.39301898269507285,0.41468100237710265,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Breda Lang,1,5,0,IBD,0.3734910019285549,0.39421857155940015,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Missy Tranior,1,5,1,low grade lymphoma,0.40068793093653027,0.4226995197887599,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Luna Aya,1,5,0,IBD,0.6438992363556624,0.6707021014423292,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Emily Riley,1,5,1,low grade lymphoma,0.7281468635533969,0.7531318059245558,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Tyga Pignatello,1,5,0,IBD,0.6523596441963737,0.6790720089491805,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Harley Kuijt,1,5,1,low grade lymphoma,0.5999236834491027,0.6268876115635484,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Roxy McCrystal,1,5,1,low grade lymphoma,0.6557935474575449,0.6824635398182466,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Lafayette Pledgie,1,5,1,low grade lymphoma,0.7467514443280268,0.7710454896300684,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Clementine Wu,1,5,1,low grade lymphoma,0.6278932622924883,0.4124483025688445,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Jada Hegnauer,1,5,1,low grade lymphoma,0.7464324056312567,0.7707392341439934,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Hannah Sykes,1,5,1,low grade lymphoma,0.7080119254001003,0.7336223460073095,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Shadow Yantz,1,5,1,low grade lymphoma,0.5712871976789032,0.35511868855834516,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Penny Perez,1,5,1,low grade lymphoma,0.6365192811722068,0.6633851075061713,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Phineas Lowenstein,1,5,1,low grade lymphoma,0.6863010329395921,0.4783095144677129,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Ciri Joyner,1,5,1,low grade lymphoma,0.4576299669567297,0.48190578433682385,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Brody Fox,1,5,1,low grade lymphoma,0.7224352112027573,0.7476103097736105,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Midnight Braham,1,5,0,IBD,0.7432274494162016,0.7676608660770351,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Maxwell's Equations De Bernardids,1,5,1,low grade lymphoma,0.7217584141535144,0.7469553718093737,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Quincy Rehean,2,1,1,low grade lymphoma,0.666245685531499,0.6710818015671163,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Ian Comarow,2,1,0,IBD,0.4221230374508979,0.42671983385169204,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Elliot Grail,2,1,0,IBD,0.6950396619915707,0.6997300610154147,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Teddy Williams,2,1,1,low grade lymphoma,0.7236792752485657,0.7281839228355563,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+John Watson De Bernardis,2,1,1,low grade lymphoma,0.726257389485392,0.7307432667037912,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Mango Haden,2,1,1,low grade lymphoma,0.5693269137573118,0.5743690698462819,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Chairman Meow Messer,2,1,1,low grade lymphoma,0.6701872960000603,0.6750058419133262,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Coco Miscavage,2,1,1,low grade lymphoma,0.8693667852084557,0.8722283977372344,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Tyga Pignatello,2,1,0,IBD,0.6694723964260462,0.6742941844768464,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Cody Batleman,2,1,0,IBD,0.7899841159240086,0.7938934636890119,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Wendy Quinn Ward,2,1,0,IBD,0.7171687513272726,0.7217192783881579,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Luna Weiner,2,1,1,low grade lymphoma,0.4475380206746865,0.45227176431470933,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Sully Kuray,2,1,1,low grade lymphoma,0.8048609015923791,0.8086031448064953,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Bear Townsend,2,1,1,low grade lymphoma,0.8167583668074485,0.8203576325252262,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Sophie Davis,2,1,1,low grade lymphoma,0.7335854076304743,0.738016051464712,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Roxy McCrystal,2,1,1,low grade lymphoma,0.6726832376670918,0.6774902712806893,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Dvorak Crosby,2,1,1,low grade lymphoma,0.7875605546187117,0.7914959186374798,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Fry Guiel,2,1,1,low grade lymphoma,0.6176351147604217,0.6226277862690907,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Luna Jackson,2,1,0,IBD,0.5426003874761055,0.5476265101829491,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Shadow Yantz,2,1,1,low grade lymphoma,0.5933177060725797,0.5983481515128674,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Lionel Ellis,2,1,0,IBD,0.7148682452219027,0.7194344653782695,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Gus Poon,2,1,1,low grade lymphoma,0.6850149457854839,0.6897606701193042,age,1.0,age,CBC_neutrophilia,1.0,omitted_non_binary_or_categorical_pair,
+Buddy Salzano,2,2,0,IBD,0.6466993943375807,0.6350941426452889,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Shrimpy Golenda,2,2,0,IBD,0.6466993943375807,0.6350941426452889,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Stella Rahman,2,2,0,IBD,0.6466993943375807,0.6350941426452889,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Sylvie Comarow,2,2,0,IBD,0.6466993943375807,0.6350941426452889,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Thumper White,2,2,1,low grade lymphoma,0.6466993943375807,0.6350941426452889,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Luna Aya,2,2,0,IBD,0.6466993943375807,0.6350941426452889,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Frank Flickinger,2,2,1,low grade lymphoma,0.6466993943375807,0.6350941426452889,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Stella Kuray,2,2,1,low grade lymphoma,0.6466993943375807,0.6350941426452889,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Baloo Bullock,2,2,1,low grade lymphoma,0.6466993943375807,0.6350941426452889,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Iggy Horton,2,2,1,low grade lymphoma,0.6466993943375807,0.6350941426452889,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Kaylee Kuijt,2,2,1,low grade lymphoma,0.6466993943375807,0.6350941426452889,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Nabi Strausbagh,2,2,1,low grade lymphoma,0.7937549192920881,0.7839266859354154,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Sammy Saal,2,2,1,low grade lymphoma,0.6466993943375807,0.8157371236094915,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Consome de Pollo Gutierrez,2,2,0,IBD,0.6466993943375807,0.6350941426452889,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Dixon Brown,2,2,1,low grade lymphoma,0.7937549192920881,0.7839266859354154,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Smeagol Ravin,2,2,1,low grade lymphoma,0.6466993943375807,0.6350941426452889,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Widdle Sipos,2,2,1,low grade lymphoma,0.7937549192920881,0.7839266859354154,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Jinx Foster,2,2,0,IBD,0.6466993943375807,0.6350941426452889,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Teddy Kalomiris,2,2,1,low grade lymphoma,0.7937549192920881,0.7839266859354154,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Cookie Morris,2,2,1,low grade lymphoma,0.6466993943375807,0.6350941426452889,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Eleanor Liedtke,2,2,1,low grade lymphoma,0.6466993943375807,0.6350941426452889,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Maxwell's Equations De Bernardids,2,2,1,low grade lymphoma,0.6466993943375807,0.6350941426452889,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Jackson Barry,2,3,0,IBD,0.6397959092012022,0.6290558483478667,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Willie Raymond,2,3,0,IBD,0.6397959092012022,0.6290558483478667,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Cole Williams,2,3,0,IBD,0.6397959092012022,0.6290558483478667,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Missy Tranior,2,3,1,low grade lymphoma,0.6397959092012022,0.8027858857801137,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Watson Johnson,2,3,1,low grade lymphoma,0.8205917561006996,0.8156092230499083,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Emily Riley,2,3,1,low grade lymphoma,0.8205917561006996,0.9139232732015488,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Rubio Vera,2,3,1,low grade lymphoma,0.6397959092012022,0.6290558483478667,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Fred Turner-Au,2,3,1,low grade lymphoma,0.6397959092012022,0.6290558483478667,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Nami Tam,2,3,1,low grade lymphoma,0.8205917561006996,0.8156092230499083,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Spooky Kahn,2,3,1,low grade lymphoma,0.6397959092012022,0.6290558483478667,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Iris Stall,2,3,1,low grade lymphoma,0.6397959092012022,0.6290558483478667,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Clementine Wu,2,3,1,low grade lymphoma,0.6397959092012022,0.6290558483478667,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Sebastian Summers,2,3,0,IBD,0.8205917561006996,0.8156092230499083,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Bernice Morris,2,3,1,low grade lymphoma,0.6397959092012022,0.6290558483478667,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Jada Hegnauer,2,3,1,low grade lymphoma,0.6397959092012022,0.6290558483478667,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Khush Stefan,2,3,1,low grade lymphoma,0.6397959092012022,0.6290558483478667,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Toby Hudiburgh,2,3,0,IBD,0.6397959092012022,0.6290558483478667,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Coquito Perez,2,3,0,IBD,0.6397959092012022,0.6290558483478667,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Lucia Drerup,2,3,1,low grade lymphoma,0.8205917561006996,0.8156092230499083,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Phineas Lowenstein,2,3,1,low grade lymphoma,0.6397959092012022,0.6290558483478667,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Ciri Joyner,2,3,1,low grade lymphoma,0.6397959092012022,0.6290558483478667,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Midnight Braham,2,3,0,IBD,0.6397959092012022,0.6290558483478667,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Bisco DeBiaso,2,4,0,IBD,0.6379149466014655,0.6233593536705924,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Joey Singer,2,4,1,low grade lymphoma,0.6379149466014655,0.6233593536705924,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Jilly Noyes,2,4,1,low grade lymphoma,0.6379149466014655,0.6233593536705924,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Breda Lang,2,4,0,IBD,0.6379149466014655,0.6233593536705924,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Mia Sasek,2,4,0,IBD,0.874783157772633,0.866902755787804,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Pearlie Burkett,2,4,1,low grade lymphoma,0.874783157772633,0.866902755787804,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Mia Walling,2,4,1,low grade lymphoma,0.6379149466014655,0.6233593536705924,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Panther Stefan,2,4,1,low grade lymphoma,0.874783157772633,0.866902755787804,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Chavie Hong,2,4,1,low grade lymphoma,0.874783157772633,0.866902755787804,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Oreo Wenig,2,4,0,IBD,0.874783157772633,0.866902755787804,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Harley Kuijt,2,4,1,low grade lymphoma,0.6379149466014655,0.6233593536705924,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Joey Lyall,2,4,0,IBD,0.6379149466014655,0.6233593536705924,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Vinny Andrews,2,4,1,low grade lymphoma,0.6379149466014655,0.6233593536705924,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Claire Flickinger,2,4,1,low grade lymphoma,0.6379149466014655,0.6233593536705924,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Hannah Sykes,2,4,1,low grade lymphoma,0.6379149466014655,0.6233593536705924,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Thor Boffman,2,4,1,low grade lymphoma,0.6379149466014655,0.6233593536705924,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Penny Perez,2,4,1,low grade lymphoma,0.874783157772633,0.866902755787804,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Teddy Camp,2,4,1,low grade lymphoma,0.874783157772633,0.866902755787804,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Redford Theurer,2,4,0,IBD,0.874783157772633,0.866902755787804,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Stewie Sims,2,4,1,low grade lymphoma,0.6379149466014655,0.6233593536705924,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Gatsby Forlines,2,4,0,IBD,0.6379149466014655,0.6233593536705924,tli_high,1.0,tli_high,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Goblin Foote,2,5,1,low grade lymphoma,0.6255546217003746,0.6298618801448757,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Marilyn Sipos,2,5,1,low grade lymphoma,0.6255546217003746,0.6298618801448757,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Katie Hanson,2,5,0,IBD,0.6255546217003746,0.6298618801448757,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Luna Luizaga,2,5,0,IBD,0.6255546217003746,0.6298618801448757,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Mittens Bedell,2,5,0,IBD,0.6255546217003746,0.6298618801448757,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Kahlua Beckham,2,5,1,low grade lymphoma,0.8245348992321004,0.8316375961589674,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Benson Chavez,2,5,0,IBD,0.8245348992321004,0.8316375961589674,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Sammy Wyland,2,5,1,low grade lymphoma,0.6255546217003746,0.6298618801448757,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Lilly Mustillo,2,5,1,low grade lymphoma,0.6255546217003746,0.6298618801448757,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Lennie Currier,2,5,1,low grade lymphoma,0.6255546217003746,0.6298618801448757,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Lafayette Pledgie,2,5,1,low grade lymphoma,0.6255546217003746,0.6298618801448757,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Zokni Eremenco,2,5,1,low grade lymphoma,0.6255546217003746,0.6298618801448757,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Morty Frame,2,5,1,low grade lymphoma,0.6255546217003746,0.6298618801448757,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Madeline Wang,2,5,1,low grade lymphoma,0.8245348992321004,0.8316375961589674,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Spooky Jackson,2,5,1,low grade lymphoma,0.6255546217003746,0.6298618801448757,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+No Name Murangi,2,5,1,low grade lymphoma,0.6255546217003746,0.6298618801448757,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Hooper Fox,2,5,1,low grade lymphoma,0.6255546217003746,0.6298618801448757,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Zuko Hays,2,5,1,low grade lymphoma,0.8245348992321004,0.8316375961589674,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Brody Fox,2,5,1,low grade lymphoma,0.6255546217003746,0.6298618801448757,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Midnight Chilton,2,5,0,IBD,0.6255546217003746,0.6298618801448757,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Lucy DeWeese,2,5,0,IBD,0.6255546217003746,0.6298618801448757,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,CBC_neutrophilia,1.0,omitted_sparse_joint_cells,1.0
+Bisco DeBiaso,3,1,0,IBD,0.87870120426451,0.8573864609778826,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Elliot Grail,3,1,0,IBD,0.6578438989011636,0.598961687584941,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Teddy Williams,3,1,1,low grade lymphoma,0.6578438989011636,0.598961687584941,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+John Watson De Bernardis,3,1,1,low grade lymphoma,0.6578438989011636,0.598961687584941,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Stella Rahman,3,1,0,IBD,0.6578438989011636,0.598961687584941,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Luna Luizaga,3,1,0,IBD,0.87870120426451,0.8573864609778826,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Mittens Bedell,3,1,0,IBD,0.6578438989011636,0.598961687584941,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Frank Flickinger,3,1,1,low grade lymphoma,0.6578438989011636,0.598961687584941,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Stella Kuray,3,1,1,low grade lymphoma,0.6578438989011636,0.598961687584941,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Rubio Vera,3,1,1,low grade lymphoma,0.6578438989011636,0.811821434465609,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Chairman Meow Messer,3,1,1,low grade lymphoma,0.6578438989011636,0.598961687584941,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Baloo Bullock,3,1,1,low grade lymphoma,0.6578438989011636,0.598961687584941,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Luna Weiner,3,1,1,low grade lymphoma,0.6578438989011636,0.598961687584941,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Oreo Wenig,3,1,0,IBD,0.6578438989011636,0.811821434465609,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Sully Kuray,3,1,1,low grade lymphoma,0.87870120426451,0.8573864609778826,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Iggy Horton,3,1,1,low grade lymphoma,0.6578438989011636,0.598961687584941,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Lennie Currier,3,1,1,low grade lymphoma,0.87870120426451,0.9455507622221476,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Roxy McCrystal,3,1,1,low grade lymphoma,0.6578438989011636,0.598961687584941,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Nabi Strausbagh,3,1,1,low grade lymphoma,0.6578438989011636,0.811821434465609,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Jada Hegnauer,3,1,1,low grade lymphoma,0.6578438989011636,0.598961687584941,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Khush Stefan,3,1,1,low grade lymphoma,0.6578438989011636,0.598961687584941,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Toby Hudiburgh,3,1,0,IBD,0.6578438989011636,0.598961687584941,clinical signs_hyporexia,1.0,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,2.0
+Jackson Barry,3,2,0,IBD,0.588869949782299,0.5681199265895556,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Ian Comarow,3,2,0,IBD,0.4558358102060431,0.4207181782304172,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Cole Williams,3,2,0,IBD,0.7179324667479166,0.7131740866544815,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Sylvie Comarow,3,2,0,IBD,0.4636312413605681,0.4292112471761355,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Watson Johnson,3,2,1,low grade lymphoma,0.7437362434231367,0.7419623672188803,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Mango Haden,3,2,1,low grade lymphoma,0.5857579228826434,0.564627996934392,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Mia Walling,3,2,1,low grade lymphoma,0.7352167166270834,0.7324755145981607,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Panther Stefan,3,2,1,low grade lymphoma,0.7890851886996462,0.792062076970046,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Tyga Pignatello,3,2,0,IBD,0.673286490046838,0.6630771672035706,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Iris Stall,3,2,1,low grade lymphoma,0.7597076249846327,0.7596902365117452,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Kaylee Kuijt,3,2,1,low grade lymphoma,0.6342433825604407,0.61913534437352,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Lafayette Pledgie,3,2,1,low grade lymphoma,0.7512752026402152,0.8781059755038564,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Spooky Jackson,3,2,1,low grade lymphoma,0.7916851169807225,0.7949096989799972,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Bernice Morris,3,2,1,low grade lymphoma,0.6999803635180244,0.6930636340664823,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Fry Guiel,3,2,1,low grade lymphoma,0.6279327833638395,0.6120323863375925,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Phineas Lowenstein,3,2,1,low grade lymphoma,0.7011774109827604,0.6944062653197411,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Teddy Camp,3,2,1,low grade lymphoma,0.6480282171253241,0.6346532901196072,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Zuko Hays,3,2,1,low grade lymphoma,0.6628472235172611,0.6513329621449994,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Teddy Kalomiris,3,2,1,low grade lymphoma,0.7676881375171812,0.7685170029443711,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Redford Theurer,3,2,0,IBD,0.886364883110953,0.8957626507950777,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Lucy DeWeese,3,2,0,IBD,0.7648776572592508,0.7654110717189985,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Cookie Morris,3,2,1,low grade lymphoma,0.7907424301669346,0.7938775607986498,age,0.3,age,chem_hyperproteinemia,1.0,omitted_non_binary_or_categorical_pair,
+Jilly Noyes,3,3,1,low grade lymphoma,0.8486441745920824,0.840810480528787,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Breda Lang,3,3,0,IBD,0.6335060305099721,0.6220033218574782,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Luna Aya,3,3,0,IBD,0.6335060305099721,0.6220033218574782,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Benson Chavez,3,3,0,IBD,0.8486441745920824,0.840810480528787,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Fred Turner-Au,3,3,1,low grade lymphoma,0.6335060305099721,0.6220033218574782,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Lilly Mustillo,3,3,1,low grade lymphoma,0.6335060305099721,0.6220033218574782,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Bear Townsend,3,3,1,low grade lymphoma,0.6335060305099721,0.8051316364329497,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Sophie Davis,3,3,1,low grade lymphoma,0.6335060305099721,0.6220033218574782,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Harley Kuijt,3,3,1,low grade lymphoma,0.6335060305099721,0.6220033218574782,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Clementine Wu,3,3,1,low grade lymphoma,0.6335060305099721,0.6220033218574782,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Sebastian Summers,3,3,0,IBD,0.8486441745920824,0.840810480528787,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Claire Flickinger,3,3,1,low grade lymphoma,0.8486441745920824,0.840810480528787,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Thor Boffman,3,3,1,low grade lymphoma,0.6335060305099721,0.6220033218574782,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Widdle Sipos,3,3,1,low grade lymphoma,0.6335060305099721,0.6220033218574782,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Luna Jackson,3,3,0,IBD,0.6335060305099721,0.6220033218574782,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Coquito Perez,3,3,0,IBD,0.6335060305099721,0.6220033218574782,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Shadow Yantz,3,3,1,low grade lymphoma,0.8486441745920824,0.840810480528787,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Penny Perez,3,3,1,low grade lymphoma,0.6335060305099721,0.6220033218574782,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Lucia Drerup,3,3,1,low grade lymphoma,0.8486441745920824,0.840810480528787,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Ciri Joyner,3,3,1,low grade lymphoma,0.6335060305099721,0.6220033218574782,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Brody Fox,3,3,1,low grade lymphoma,0.6335060305099721,0.6220033218574782,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Gatsby Forlines,3,3,0,IBD,0.6335060305099721,0.6220033218574782,AUS_enlarged pancreas,1.0,AUS_enlarged pancreas,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,2.0
+Joey Singer,3,4,1,low grade lymphoma,0.733059628954642,0.6976941140155204,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Buddy Salzano,3,4,0,IBD,0.8049770828581618,0.8921348992969205,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Willie Raymond,3,4,0,IBD,0.7723390131438078,0.7427319403992817,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Shrimpy Golenda,3,4,0,IBD,0.6905401768384115,0.6494221029540816,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Goblin Foote,3,4,1,low grade lymphoma,0.6493164694550336,0.6032066837617623,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Sammy Wyland,3,4,1,low grade lymphoma,0.7760009565445347,0.7469483568415478,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Chavie Hong,3,4,1,low grade lymphoma,0.779947792134253,0.7514956712921026,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Coco Miscavage,3,4,1,low grade lymphoma,0.8982075681143884,0.8882210478547835,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Cody Batleman,3,4,0,IBD,0.818362004134782,0.7958789360241469,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Spooky Kahn,3,4,1,low grade lymphoma,0.5762892106169948,0.5230106229137107,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Zokni Eremenco,3,4,1,low grade lymphoma,0.8876564161444608,0.8760687414317311,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Morty Frame,3,4,1,low grade lymphoma,0.6719367273116849,0.6284889276190758,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Dvorak Crosby,3,4,1,low grade lymphoma,0.8158006568510335,0.8991087734058023,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+No Name Murangi,3,4,1,low grade lymphoma,0.8636729897666461,0.8483551164418616,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Hooper Fox,3,4,1,low grade lymphoma,0.7285644880730563,0.6925650557726702,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Smeagol Ravin,3,4,1,low grade lymphoma,0.3942791693785278,0.3343823333805006,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Jinx Foster,3,4,0,IBD,0.8079490898452029,0.7838297644783462,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Lionel Ellis,3,4,0,IBD,0.7363997547807678,0.7015088952912094,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Midnight Braham,3,4,0,IBD,0.779947792134253,0.7514956712921026,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Gus Poon,3,4,1,low grade lymphoma,0.7026128806913575,0.6630703156697887,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Eleanor Liedtke,3,4,1,low grade lymphoma,0.5781479740503397,0.7200993377986747,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Quincy Rehean,3,5,1,low grade lymphoma,0.6143103255691132,0.6644529241041985,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Marilyn Sipos,3,5,1,low grade lymphoma,0.6143103255691132,0.6644529241041985,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Mia Sasek,3,5,0,IBD,0.8557752683789112,0.9346435339219642,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Katie Hanson,3,5,0,IBD,0.8557752683789112,0.7999094631639313,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Missy Tranior,3,5,1,low grade lymphoma,0.6143103255691132,0.49922608878342106,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Thumper White,3,5,1,low grade lymphoma,0.6143103255691132,0.49922608878342106,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Pearlie Burkett,3,5,1,low grade lymphoma,0.8557752683789112,0.9346435339219642,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Kahlua Beckham,3,5,1,low grade lymphoma,0.6143103255691132,0.49922608878342106,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Emily Riley,3,5,1,low grade lymphoma,0.6143103255691132,0.49922608878342106,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Nami Tam,3,5,1,low grade lymphoma,0.6143103255691132,0.49922608878342106,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Wendy Quinn Ward,3,5,0,IBD,0.6143103255691132,0.6644529241041985,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Joey Lyall,3,5,0,IBD,0.6143103255691132,0.49922608878342106,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Vinny Andrews,3,5,1,low grade lymphoma,0.6143103255691132,0.6644529241041985,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Sammy Saal,3,5,1,low grade lymphoma,0.6143103255691132,0.49922608878342106,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Madeline Wang,3,5,1,low grade lymphoma,0.6143103255691132,0.49922608878342106,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Consome de Pollo Gutierrez,3,5,0,IBD,0.6143103255691132,0.6644529241041985,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Dixon Brown,3,5,1,low grade lymphoma,0.8557752683789112,0.9346435339219642,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Hannah Sykes,3,5,1,low grade lymphoma,0.6143103255691132,0.6644529241041985,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Midnight Chilton,3,5,0,IBD,0.6143103255691132,0.49922608878342106,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Stewie Sims,3,5,1,low grade lymphoma,0.6143103255691132,0.6644529241041985,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Maxwell's Equations De Bernardids,3,5,1,low grade lymphoma,0.6143103255691132,0.49922608878342106,tli_high,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Buddy Salzano,4,1,0,IBD,0.8086144799925805,0.7284584648769138,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Quincy Rehean,4,1,1,low grade lymphoma,0.6488896808175105,0.4443416037778505,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Shrimpy Golenda,4,1,0,IBD,0.6488896808175105,0.7284584648769138,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Marilyn Sipos,4,1,1,low grade lymphoma,0.6488896808175105,0.7200847268840189,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Mia Sasek,4,1,0,IBD,0.6488896808175105,0.7200847268840189,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Mittens Bedell,4,1,0,IBD,0.6488896808175105,0.7284584648769138,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Sylvie Comarow,4,1,0,IBD,0.6488896808175105,0.7200847268840189,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Frank Flickinger,4,1,1,low grade lymphoma,0.8086144799925805,0.7284584648769138,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Nami Tam,4,1,1,low grade lymphoma,0.8086144799925805,0.7200847268840189,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Cody Batleman,4,1,0,IBD,0.6488896808175105,0.7200847268840189,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Sully Kuray,4,1,1,low grade lymphoma,0.8086144799925805,0.7200847268840189,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Bear Townsend,4,1,1,low grade lymphoma,0.6488896808175105,0.7284584648769138,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Sophie Davis,4,1,1,low grade lymphoma,0.6488896808175105,0.7200847268840189,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Sammy Saal,4,1,1,low grade lymphoma,0.6488896808175105,0.7284584648769138,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Madeline Wang,4,1,1,low grade lymphoma,0.8086144799925805,0.7200847268840189,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+No Name Murangi,4,1,1,low grade lymphoma,0.6488896808175105,0.7284584648769138,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Claire Flickinger,4,1,1,low grade lymphoma,0.8086144799925805,0.7284584648769138,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Smeagol Ravin,4,1,1,low grade lymphoma,0.6488896808175105,0.4443416037778505,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Widdle Sipos,4,1,1,low grade lymphoma,0.6488896808175105,0.7284584648769138,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Teddy Kalomiris,4,1,1,low grade lymphoma,0.8086144799925805,0.7284584648769138,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Lionel Ellis,4,1,0,IBD,0.6488896808175105,0.7200847268840189,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Gus Poon,4,1,1,low grade lymphoma,0.6488896808175105,0.4443416037778505,AUS_enlarged pancreas,1.0,clinical signs_diarrhea,clinical signs_weight loss,1.0,included_binary_binary,12.0
+Joey Singer,4,2,1,low grade lymphoma,0.7082463932164129,0.6692952348016894,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Jilly Noyes,4,2,1,low grade lymphoma,0.7026167746834858,0.8411006406002043,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Goblin Foote,4,2,1,low grade lymphoma,0.639989717443636,0.5956734336405987,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Luna Aya,4,2,0,IBD,0.6611980887779942,0.6183557786090986,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Fred Turner-Au,4,2,1,low grade lymphoma,0.6150179980954846,0.5691928114010505,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Baloo Bullock,4,2,1,low grade lymphoma,0.7639327703854188,0.8794293915716729,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Coco Miscavage,4,2,1,low grade lymphoma,0.8593050637937583,0.8382570139474518,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Tyga Pignatello,4,2,0,IBD,0.6685758407494298,0.6262873884543111,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Iggy Horton,4,2,1,low grade lymphoma,0.8152394052695214,0.7881785608571235,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Lennie Currier,4,2,1,low grade lymphoma,0.8303732992573978,0.8053108538022822,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Harley Kuijt,4,2,1,low grade lymphoma,0.62282772565539,0.5774479577514776,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Sebastian Summers,4,2,0,IBD,0.4782787348047426,0.668537983271618,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Dixon Brown,4,2,1,low grade lymphoma,0.7116556836041771,0.846956234559131,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Hannah Sykes,4,2,1,low grade lymphoma,0.7171830665097149,0.6790662670915159,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Thor Boffman,4,2,1,low grade lymphoma,0.47640118284075805,0.4267454628558588,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Toby Hudiburgh,4,2,0,IBD,0.47414900526985737,0.42449544649322135,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Coquito Perez,4,2,0,IBD,0.44685868662568995,0.3973965082915427,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Penny Perez,4,2,1,low grade lymphoma,0.6547625728946129,0.6114544239564778,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Teddy Camp,4,2,1,low grade lymphoma,0.6417218213842362,0.7996633780143098,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Zuko Hays,4,2,1,low grade lymphoma,0.6574793455442688,0.8107289888314297,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Redford Theurer,4,2,0,IBD,0.8914890023632774,0.9496243437784283,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Lucy DeWeese,4,2,0,IBD,0.7655574982022891,0.7324697086827386,age,0.3,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Bisco DeBiaso,4,3,0,IBD,0.6743029138896169,0.8198376014395072,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Willie Raymond,4,3,0,IBD,0.6743029138896169,0.6534323122286799,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Breda Lang,4,3,0,IBD,0.6743029138896169,0.6534323122286799,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Missy Tranior,4,3,1,low grade lymphoma,0.8422342098299405,0.9208436309997403,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Stella Rahman,4,3,0,IBD,0.6743029138896169,0.6534323122286799,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Thumper White,4,3,1,low grade lymphoma,0.6743029138896169,0.6534323122286799,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Watson Johnson,4,3,1,low grade lymphoma,0.6743029138896169,0.6534323122286799,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Mango Haden,4,3,1,low grade lymphoma,0.6743029138896169,0.6534323122286799,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Mia Walling,4,3,1,low grade lymphoma,0.6743029138896169,0.6534323122286799,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Chavie Hong,4,3,1,low grade lymphoma,0.6743029138896169,0.6534323122286799,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Lilly Mustillo,4,3,1,low grade lymphoma,0.6743029138896169,0.6534323122286799,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Kaylee Kuijt,4,3,1,low grade lymphoma,0.6743029138896169,0.6534323122286799,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Nabi Strausbagh,4,3,1,low grade lymphoma,0.6743029138896169,0.6534323122286799,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Clementine Wu,4,3,1,low grade lymphoma,0.6743029138896169,0.6534323122286799,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Morty Frame,4,3,1,low grade lymphoma,0.6743029138896169,0.8198376014395072,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Consome de Pollo Gutierrez,4,3,0,IBD,0.6743029138896169,0.6534323122286799,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Fry Guiel,4,3,1,low grade lymphoma,0.6743029138896169,0.8198376014395072,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Ciri Joyner,4,3,1,low grade lymphoma,0.6743029138896169,0.6534323122286799,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Brody Fox,4,3,1,low grade lymphoma,0.6743029138896169,0.6534323122286799,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Midnight Chilton,4,3,0,IBD,0.6743029138896169,0.6534323122286799,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Stewie Sims,4,3,1,low grade lymphoma,0.6743029138896169,0.6534323122286799,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Midnight Braham,4,3,0,IBD,0.6743029138896169,0.6534323122286799,chem_hyperproteinemia,1.0,clinical signs_hyporexia,chem_hyperproteinemia,1.0,omitted_sparse_joint_cells,1.0
+Jackson Barry,4,4,0,IBD,0.59554475131049,0.6086257510540477,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Cole Williams,4,4,0,IBD,0.723575644819593,0.6086257510540477,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Teddy Williams,4,4,1,low grade lymphoma,0.7267055827450711,0.6086257510540477,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Katie Hanson,4,4,0,IBD,0.7949237729356221,0.8030464015660458,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Luna Luizaga,4,4,0,IBD,0.6721982253608916,0.8270955890165252,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Pearlie Burkett,4,4,1,low grade lymphoma,0.7131788600099813,0.8030464015660458,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Kahlua Beckham,4,4,1,low grade lymphoma,0.7460974009854671,0.6086257510540477,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Benson Chavez,4,4,0,IBD,0.6119369405365229,0.6086257510540477,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Stella Kuray,4,4,1,low grade lymphoma,0.7678834270703082,0.6086257510540477,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Rubio Vera,4,4,1,low grade lymphoma,0.775180720655391,0.8030464015660458,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Chairman Meow Messer,4,4,1,low grade lymphoma,0.6800137068112682,0.6086257510540477,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Wendy Quinn Ward,4,4,0,IBD,0.720998374604946,0.6086257510540477,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Luna Weiner,4,4,1,low grade lymphoma,0.4853833572230631,0.6086257510540477,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Iris Stall,4,4,1,low grade lymphoma,0.7648159345303606,0.6086257510540477,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Roxy McCrystal,4,4,1,low grade lymphoma,0.6821842914781281,0.6086257510540477,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Joey Lyall,4,4,0,IBD,0.7309378641261794,0.6086257510540477,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Dvorak Crosby,4,4,1,low grade lymphoma,0.7832845613315125,0.8030464015660458,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Bernice Morris,4,4,1,low grade lymphoma,0.7058229914863048,0.6086257510540477,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Jada Hegnauer,4,4,1,low grade lymphoma,0.7562364034323469,0.6086257510540477,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Shadow Yantz,4,4,1,low grade lymphoma,0.6132921427197676,0.8030464015660458,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Cookie Morris,4,4,1,low grade lymphoma,0.7953888434151698,0.6086257510540477,age,0.3,tli_high,clinical signs_hyporexia,1.0,omitted_sparse_joint_cells,3.0
+Ian Comarow,4,5,0,IBD,0.4831890210790048,0.43884292820925414,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Elliot Grail,4,5,0,IBD,0.6869092825884983,0.6667036939115853,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+John Watson De Bernardis,4,5,1,low grade lymphoma,0.7108675572888208,0.6939634516977696,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Emily Riley,4,5,1,low grade lymphoma,0.7217005141073275,0.7062858612905829,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Sammy Wyland,4,5,1,low grade lymphoma,0.7298984502654011,0.8377838492996027,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Panther Stefan,4,5,1,low grade lymphoma,0.7691853919447649,0.7601609276702298,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Spooky Kahn,4,5,1,low grade lymphoma,0.5984962437419555,0.5665406943291521,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Oreo Wenig,4,5,0,IBD,0.7939842926583015,0.7881230107876385,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Lafayette Pledgie,4,5,1,low grade lymphoma,0.7353570516332667,0.721809291687119,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Zokni Eremenco,4,5,1,low grade lymphoma,0.8203525215605836,0.8176364674221254,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Vinny Andrews,4,5,1,low grade lymphoma,0.6507053127461114,0.6255602390199009,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Spooky Jackson,4,5,1,low grade lymphoma,0.7715431038175384,0.7628261197647772,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Hooper Fox,4,5,1,low grade lymphoma,0.6967249806986884,0.6778716316547613,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Khush Stefan,4,5,1,low grade lymphoma,0.7591422750529548,0.7487949356537711,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Luna Jackson,4,5,0,IBD,0.5735172015645473,0.5385126922621497,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Jinx Foster,4,5,0,IBD,0.753560424619472,0.7424696178809715,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Lucia Drerup,4,5,1,low grade lymphoma,0.7481205560728803,0.7363002782827397,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Phineas Lowenstein,4,5,1,low grade lymphoma,0.691580430828636,0.6720180792255767,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Gatsby Forlines,4,5,0,IBD,0.5391397383619244,0.5002351133400436,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Eleanor Liedtke,4,5,1,low grade lymphoma,0.5996602849551571,0.5678506518446527,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Maxwell's Equations De Bernardids,4,5,1,low grade lymphoma,0.7170533140589102,0.7010003701826302,age,0.3,age,clinical signs_hyporexia,1.0,omitted_non_binary_or_categorical_pair,
+Elliot Grail,5,1,0,IBD,0.674302913889617,0.6786683310593238,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Teddy Williams,5,1,1,low grade lymphoma,0.674302913889617,0.6786683310593238,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Mia Sasek,5,1,0,IBD,0.674302913889617,0.9235269861420332,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Katie Hanson,5,1,0,IBD,0.674302913889617,0.7849345916807803,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+John Watson De Bernardis,5,1,1,low grade lymphoma,0.674302913889617,0.6786683310593238,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Pearlie Burkett,5,1,1,low grade lymphoma,0.674302913889617,0.9235269861420332,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Frank Flickinger,5,1,1,low grade lymphoma,0.674302913889617,0.6786683310593238,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Emily Riley,5,1,1,low grade lymphoma,0.674302913889617,0.559696772097918,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Sammy Wyland,5,1,1,low grade lymphoma,0.674302913889617,0.559696772097918,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Panther Stefan,5,1,1,low grade lymphoma,0.674302913889617,0.7849345916807803,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Baloo Bullock,5,1,1,low grade lymphoma,0.674302913889617,0.6786683310593238,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Tyga Pignatello,5,1,0,IBD,0.8422342098299405,0.559696772097918,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Iris Stall,5,1,1,low grade lymphoma,0.674302913889617,0.559696772097918,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Sebastian Summers,5,1,0,IBD,0.674302913889617,0.6786683310593238,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Dvorak Crosby,5,1,1,low grade lymphoma,0.8422342098299405,0.7849345916807803,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Fry Guiel,5,1,1,low grade lymphoma,0.674302913889617,0.9235269861420332,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Thor Boffman,5,1,1,low grade lymphoma,0.674302913889617,0.6786683310593238,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Lucia Drerup,5,1,1,low grade lymphoma,0.674302913889617,0.6786683310593238,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Teddy Kalomiris,5,1,1,low grade lymphoma,0.674302913889617,0.7849345916807803,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Midnight Chilton,5,1,0,IBD,0.8422342098299405,0.559696772097918,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Lucy DeWeese,5,1,0,IBD,0.674302913889617,0.6786683310593238,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Cookie Morris,5,1,1,low grade lymphoma,0.674302913889617,0.559696772097918,chem_elevated alt,1.0,tli_high,chem_no abnormalities,1.0,included_binary_binary,9.0
+Bisco DeBiaso,5,2,0,IBD,0.6400138727528711,0.6624828318032169,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Joey Singer,5,2,1,low grade lymphoma,0.7157362328100977,0.7399551387101903,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Quincy Rehean,5,2,1,low grade lymphoma,0.6724436179069381,0.6959049035404707,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Shrimpy Golenda,5,2,0,IBD,0.6802301867272202,0.7038779970656922,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Jilly Noyes,5,2,1,low grade lymphoma,0.7100383606083734,0.7341979520449841,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Luna Aya,5,2,0,IBD,0.6679997952488862,0.6913453266944832,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Fred Turner-Au,5,2,1,low grade lymphoma,0.6209199111583042,0.6426542416796722,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Wendy Quinn Ward,5,2,0,IBD,0.7207439277855153,0.7450042453054558,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Oreo Wenig,5,2,0,IBD,0.8271050820732689,0.8494997635780054,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Bear Townsend,5,2,1,low grade lymphoma,0.8157655399417215,0.8386421057797395,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Harley Kuijt,5,2,1,low grade lymphoma,0.6288951205723523,0.6509490567515257,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Nabi Strausbagh,5,2,1,low grade lymphoma,0.8528368006746717,0.8738395261307641,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Joey Lyall,5,2,0,IBD,0.7315077363506262,0.7558222315043847,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Clementine Wu,5,2,1,low grade lymphoma,0.6537902373335863,0.4086600664193479,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Sammy Saal,5,2,1,low grade lymphoma,0.8659121140959877,0.8860360413899957,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Jada Hegnauer,5,2,1,low grade lymphoma,0.7588013973709548,0.7830286500424066,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Consome de Pollo Gutierrez,5,2,0,IBD,0.47028540198018515,0.23596326674084156,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Dixon Brown,5,2,1,low grade lymphoma,0.7191848378301632,0.7434333492000088,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Phineas Lowenstein,5,2,1,low grade lymphoma,0.7055602925075611,0.471198411793582,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Teddy Camp,5,2,1,low grade lymphoma,0.6481680005017109,0.67091783511154,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Zuko Hays,5,2,1,low grade lymphoma,0.6642160870056051,0.42067743577782424,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Stewie Sims,5,2,1,low grade lymphoma,0.7342327376868052,0.509126430384701,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Buddy Salzano,5,3,0,IBD,0.7854802268948625,0.7986566719428543,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Willie Raymond,5,3,0,IBD,0.7556498689827974,0.7704151022848433,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Breda Lang,5,3,0,IBD,0.4085504656123933,0.43202356243299395,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Sylvie Comarow,5,3,0,IBD,0.4369566305100704,0.4605069411736054,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Rubio Vera,5,3,1,low grade lymphoma,0.7865835065831381,0.7996991738588356,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Mango Haden,5,3,1,low grade lymphoma,0.5774388953007128,0.5991555877670547,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Nami Tam,5,3,1,low grade lymphoma,0.7535239826288863,0.7683983097620796,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Chavie Hong,5,3,1,low grade lymphoma,0.7625471728104033,0.6212540572167213,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Chairman Meow Messer,5,3,1,low grade lymphoma,0.6788521697981675,0.6971807873384063,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Coco Miscavage,5,3,1,low grade lymphoma,0.8756910426447793,0.8834856748357625,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Cody Batleman,5,3,0,IBD,0.7979179879912721,0.6680741318281503,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Sully Kuray,5,3,1,low grade lymphoma,0.8125721538067916,0.6882714478912971,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Iggy Horton,5,3,1,low grade lymphoma,0.831739895205724,0.8422540236175099,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Lilly Mustillo,5,3,1,low grade lymphoma,0.7604622719613638,0.7749784738617232,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Kaylee Kuijt,5,3,1,low grade lymphoma,0.6333893534567784,0.6534338289140305,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Bernice Morris,5,3,1,low grade lymphoma,0.7084565521672636,0.7255062873595267,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+No Name Murangi,5,3,1,low grade lymphoma,0.8411604267150864,0.8511057426683246,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Hannah Sykes,5,3,1,low grade lymphoma,0.7299754546317659,0.7460197792313298,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Jinx Foster,5,3,0,IBD,0.788230662700916,0.8012553315426015,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Shadow Yantz,5,3,1,low grade lymphoma,0.6016409303488885,0.4373004186469508,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Midnight Braham,5,3,0,IBD,0.7625471728104033,0.7769545988863639,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Gus Poon,5,3,1,low grade lymphoma,0.6936800690777172,0.7113835574872076,age,1.0,age,AUS_splenomegaly,1.0,omitted_non_binary_or_categorical_pair,
+Ian Comarow,5,4,0,IBD,0.6404099295230696,0.6117580504344501,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Stella Rahman,5,4,0,IBD,0.6404099295230696,0.6117580504344501,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Kahlua Beckham,5,4,1,low grade lymphoma,0.8266839976259536,0.8100890850107593,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Benson Chavez,5,4,0,IBD,0.8266839976259536,0.8100890850107593,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Mia Walling,5,4,1,low grade lymphoma,0.8266839976259536,0.8100890850107593,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Luna Weiner,5,4,1,low grade lymphoma,0.6404099295230696,0.6117580504344501,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Sophie Davis,5,4,1,low grade lymphoma,0.6404099295230696,0.6117580504344501,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Roxy McCrystal,5,4,1,low grade lymphoma,0.6404099295230696,0.6117580504344501,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Lafayette Pledgie,5,4,1,low grade lymphoma,0.6404099295230696,0.6117580504344501,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Zokni Eremenco,5,4,1,low grade lymphoma,0.6404099295230696,0.6117580504344501,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Vinny Andrews,5,4,1,low grade lymphoma,0.6404099295230696,0.6117580504344501,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Madeline Wang,5,4,1,low grade lymphoma,0.8266839976259536,0.8100890850107593,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Spooky Jackson,5,4,1,low grade lymphoma,0.6404099295230696,0.6117580504344501,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Smeagol Ravin,5,4,1,low grade lymphoma,0.6404099295230696,0.6117580504344501,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Widdle Sipos,5,4,1,low grade lymphoma,0.6404099295230696,0.6117580504344501,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Luna Jackson,5,4,0,IBD,0.6404099295230696,0.6117580504344501,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Coquito Perez,5,4,0,IBD,0.6404099295230696,0.6117580504344501,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Penny Perez,5,4,1,low grade lymphoma,0.6404099295230696,0.6117580504344501,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Brody Fox,5,4,1,low grade lymphoma,0.6404099295230696,0.6117580504344501,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Lionel Ellis,5,4,0,IBD,0.6404099295230696,0.6117580504344501,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Gatsby Forlines,5,4,0,IBD,0.6404099295230696,0.6117580504344501,AUS_enlarged pancreas,1.0,clinical signs_hyporexia,AUS_enlarged pancreas,1.0,omitted_sparse_joint_cells,4.0
+Jackson Barry,5,5,0,IBD,0.5192052648702019,0.47350873108117036,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Cole Williams,5,5,0,IBD,0.7257827864992097,0.6820741848865317,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Goblin Foote,5,5,1,low grade lymphoma,0.6123609957688809,0.5653320549534793,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Marilyn Sipos,5,5,1,low grade lymphoma,0.6974979592961434,0.6523916954132664,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Missy Tranior,5,5,1,low grade lymphoma,0.3279909625956886,0.29396291056246016,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Luna Luizaga,5,5,0,IBD,0.644039810048829,0.5973474941907407,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Mittens Bedell,5,5,0,IBD,0.8219264006478448,0.7862791108158459,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Thumper White,5,5,1,low grade lymphoma,0.4482172261642931,0.4055972309953207,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Watson Johnson,5,5,1,low grade lymphoma,0.764585082588383,0.8667608199696185,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Stella Kuray,5,5,1,low grade lymphoma,0.7921851113400451,0.8836996868386977,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Spooky Kahn,5,5,1,low grade lymphoma,0.5242009058750007,0.4783513292341627,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Lennie Currier,5,5,1,low grade lymphoma,0.875918277691484,0.8474425545058281,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Morty Frame,5,5,1,low grade lymphoma,0.6399496652634818,0.5931895958675036,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Claire Flickinger,5,5,1,low grade lymphoma,0.8524726914955921,0.9191871170676091,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Hooper Fox,5,5,1,low grade lymphoma,0.7091014309399329,0.664519616633084,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Khush Stefan,5,5,1,low grade lymphoma,0.8133030448969508,0.7767023533732162,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Toby Hudiburgh,5,5,0,IBD,0.36679301958403543,0.32957598606367317,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Ciri Joyner,5,5,1,low grade lymphoma,0.3988388784341067,0.35927569584078894,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Redford Theurer,5,5,0,IBD,0.9381709331468017,0.966676911499385,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Eleanor Liedtke,5,5,1,low grade lymphoma,0.5264196967376639,0.6969481607239232,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,
+Maxwell's Equations De Bernardids,5,5,1,low grade lymphoma,0.7448265765637065,0.7022929713423584,age,1.0,age,AUS_enlarged pancreas,1.0,omitted_non_binary_or_categorical_pair,

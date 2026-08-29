@@ -1,0 +1,50 @@
+feature,positive_count,positive_fraction,n_missing,separation_flag,rare_binary_flag
+cobalamin_low,34.0,0.3148148148148148,0,False,False
+folate_high,31.0,0.28703703703703703,0,False,False
+folate_low,5.0,0.046296296296296294,0,False,False
+tli_high,27.0,0.25,0,False,False
+pli_abn,15.0,0.1388888888888889,0,False,False
+clinical signs_none,7.0,0.06481481481481481,0,False,False
+clinical signs_vomiting,66.0,0.6111111111111112,0,False,False
+clinical signs_diarrhea,34.0,0.3148148148148148,0,False,False
+clinical signs_hyporexia,15.0,0.1388888888888889,0,False,False
+clinical signs_weight loss,58.0,0.5370370370370371,0,False,False
+clinical signs_hairball obstruction,3.0,0.027777777777777776,0,False,True
+clinical signs_constipation,1.0,0.009259259259259259,0,True,True
+AUS_no abnormalities,4.0,0.037037037037037035,0,False,True
+AUS_duodenum,74.0,0.6851851851851852,0,False,False
+AUS_jejunum,72.0,0.6666666666666666,0,False,False
+AUS_ileum,26.0,0.24074074074074073,0,False,False
+AUS_colon,11.0,0.10185185185185185,0,False,False
+AUS_mesenteric lymphadenopathy,52.0,0.48148148148148145,0,False,False
+AUS_chronic degenerative renal changes,12.0,0.1111111111111111,0,False,False
+AUS_enlarged pancreas,27.0,0.25,0,False,False
+AUS_splenomegaly,13.0,0.12037037037037036,0,False,False
+AUS_ileus,7.0,0.06481481481481481,0,False,False
+AUS_gall bladder sludge,17.0,0.1574074074074074,0,False,False
+CBC_no abnormalities,79.0,0.7314814814814815,0,False,False
+CBC_neutrophilia,2.0,0.018518518518518517,0,True,True
+CBC_neutropenia,4.0,0.037037037037037035,0,False,True
+CBC_eosinophilia,7.0,0.06481481481481481,0,False,False
+CBC_eosinopenia,1.0,0.009259259259259259,0,True,True
+CBC_basophilia,5.0,0.046296296296296294,0,False,False
+CBC_basocytosis,1.0,0.009259259259259259,0,True,True
+CBC_lymphocytosis,2.0,0.018518518518518517,0,True,True
+CBC_lymphopenia,6.0,0.05555555555555555,0,False,False
+CBC_monocytosis,12.0,0.1111111111111111,0,False,False
+CBC_anemia,3.0,0.027777777777777776,0,False,True
+chem_no abnormalities,64.0,0.5925925925925926,0,False,False
+chem_hypoproteinemia,6.0,0.05555555555555555,0,False,False
+chem_hyperproteinemia,7.0,0.06481481481481481,0,True,False
+chem_decreased alt,2.0,0.018518518518518517,0,True,True
+chem_elevated alt,9.0,0.08333333333333333,0,False,False
+chem_elevated ast,2.0,0.018518518518518517,0,False,True
+chem_elevated alp,1.0,0.009259259259259259,0,True,True
+chem_elevated total bilirubin,2.0,0.018518518518518517,0,True,True
+chem_azotemia,18.0,0.16666666666666666,0,False,False
+chem_discordantly elevated bun,2.0,0.018518518518518517,0,True,True
+chem_hyperglycemia,2.0,0.018518518518518517,0,True,True
+chem_hypercholesterolemia,1.0,0.009259259259259259,0,True,True
+chem_hypercalcemia,1.0,0.009259259259259259,0,True,True
+chem_hypokalemia,6.0,0.05555555555555555,0,False,False
+chem_hypophosphatemia,2.0,0.018518518518518517,0,True,True

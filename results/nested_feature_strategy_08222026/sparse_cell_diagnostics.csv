@@ -1,0 +1,1177 @@
+feature_1,feature_2,n_00,n_01,n_10,n_11,min_joint_cell_count,sparse_joint_cell_flag,complete_or_quasi_separation_flag
+cobalamin_low,folate_high,52,22,25,9,9,False,False
+cobalamin_low,folate_low,71,3,32,2,2,True,True
+cobalamin_low,tli_high,62,12,19,15,12,False,False
+cobalamin_low,pli_abn,69,5,24,10,5,False,False
+cobalamin_low,clinical signs_none,68,6,33,1,1,True,True
+cobalamin_low,clinical signs_vomiting,31,43,11,23,11,False,False
+cobalamin_low,clinical signs_diarrhea,51,23,23,11,11,False,False
+cobalamin_low,clinical signs_hyporexia,62,12,31,3,3,True,False
+cobalamin_low,clinical signs_weight loss,40,34,10,24,10,False,False
+cobalamin_low,clinical signs_hairball obstruction,72,2,33,1,1,True,True
+cobalamin_low,clinical signs_constipation,73,1,34,0,0,True,True
+cobalamin_low,AUS_no abnormalities,70,4,34,0,0,True,False
+cobalamin_low,AUS_duodenum,28,46,6,28,6,False,False
+cobalamin_low,AUS_jejunum,30,44,6,28,6,False,False
+cobalamin_low,AUS_ileum,57,17,25,9,9,False,False
+cobalamin_low,AUS_colon,65,9,32,2,2,True,True
+cobalamin_low,AUS_mesenteric lymphadenopathy,42,32,14,20,14,False,False
+cobalamin_low,AUS_chronic degenerative renal changes,67,7,29,5,5,False,False
+cobalamin_low,AUS_enlarged pancreas,57,17,24,10,10,False,False
+cobalamin_low,AUS_splenomegaly,66,8,29,5,5,False,False
+cobalamin_low,AUS_ileus,70,4,31,3,3,True,False
+cobalamin_low,AUS_gall bladder sludge,60,14,31,3,3,True,False
+cobalamin_low,CBC_no abnormalities,17,57,12,22,12,False,False
+cobalamin_low,CBC_neutrophilia,74,0,32,2,0,True,True
+cobalamin_low,CBC_neutropenia,71,3,33,1,1,True,True
+cobalamin_low,CBC_eosinophilia,69,5,32,2,2,True,False
+cobalamin_low,CBC_eosinopenia,73,1,34,0,0,True,True
+cobalamin_low,CBC_basophilia,71,3,32,2,2,True,False
+cobalamin_low,CBC_basocytosis,74,0,33,1,0,True,True
+cobalamin_low,CBC_lymphocytosis,72,2,34,0,0,True,True
+cobalamin_low,CBC_lymphopenia,71,3,31,3,3,True,True
+cobalamin_low,CBC_monocytosis,69,5,27,7,5,False,False
+cobalamin_low,CBC_anemia,71,3,34,0,0,True,False
+cobalamin_low,chem_no abnormalities,31,43,13,21,13,False,False
+cobalamin_low,chem_hypoproteinemia,70,4,32,2,2,True,False
+cobalamin_low,chem_hyperproteinemia,69,5,32,2,2,True,True
+cobalamin_low,chem_decreased alt,73,1,33,1,1,True,True
+cobalamin_low,chem_elevated alt,66,8,33,1,1,True,True
+cobalamin_low,chem_elevated ast,72,2,34,0,0,True,False
+cobalamin_low,chem_elevated alp,73,1,34,0,0,True,True
+cobalamin_low,chem_elevated total bilirubin,72,2,34,0,0,True,True
+cobalamin_low,chem_azotemia,63,11,27,7,7,False,False
+cobalamin_low,chem_discordantly elevated bun,72,2,34,0,0,True,True
+cobalamin_low,chem_hyperglycemia,72,2,34,0,0,True,True
+cobalamin_low,chem_hypercholesterolemia,73,1,34,0,0,True,True
+cobalamin_low,chem_hypercalcemia,74,0,33,1,0,True,True
+cobalamin_low,chem_hypokalemia,69,5,33,1,1,True,True
+cobalamin_low,chem_hypophosphatemia,73,1,33,1,1,True,True
+folate_high,folate_low,72,5,31,0,0,True,False
+folate_high,tli_high,63,14,18,13,13,False,False
+folate_high,pli_abn,67,10,26,5,5,False,False
+folate_high,clinical signs_none,73,4,28,3,3,True,False
+folate_high,clinical signs_vomiting,29,48,13,18,13,False,False
+folate_high,clinical signs_diarrhea,52,25,22,9,9,False,False
+folate_high,clinical signs_hyporexia,66,11,27,4,4,True,True
+folate_high,clinical signs_weight loss,34,43,16,15,15,False,False
+folate_high,clinical signs_hairball obstruction,75,2,30,1,1,True,True
+folate_high,clinical signs_constipation,77,0,30,1,0,True,True
+folate_high,AUS_no abnormalities,74,3,30,1,1,True,True
+folate_high,AUS_duodenum,24,53,10,21,10,False,False
+folate_high,AUS_jejunum,28,49,8,23,8,False,False
+folate_high,AUS_ileum,57,20,25,6,6,False,False
+folate_high,AUS_colon,69,8,28,3,3,True,False
+folate_high,AUS_mesenteric lymphadenopathy,41,36,15,16,15,False,False
+folate_high,AUS_chronic degenerative renal changes,66,11,30,1,1,True,True
+folate_high,AUS_enlarged pancreas,61,16,20,11,11,False,False
+folate_high,AUS_splenomegaly,70,7,25,6,6,False,False
+folate_high,AUS_ileus,71,6,30,1,1,True,True
+folate_high,AUS_gall bladder sludge,64,13,27,4,4,True,True
+folate_high,CBC_no abnormalities,20,57,9,22,9,False,False
+folate_high,CBC_neutrophilia,76,1,30,1,1,True,True
+folate_high,CBC_neutropenia,73,4,31,0,0,True,False
+folate_high,CBC_eosinophilia,72,5,29,2,2,True,False
+folate_high,CBC_eosinopenia,76,1,31,0,0,True,True
+folate_high,CBC_basophilia,73,4,30,1,1,True,True
+folate_high,CBC_basocytosis,76,1,31,0,0,True,True
+folate_high,CBC_lymphocytosis,75,2,31,0,0,True,True
+folate_high,CBC_lymphopenia,72,5,30,1,1,True,True
+folate_high,CBC_monocytosis,69,8,27,4,4,True,True
+folate_high,CBC_anemia,74,3,31,0,0,True,False
+folate_high,chem_no abnormalities,29,48,15,16,15,False,False
+folate_high,chem_hypoproteinemia,73,4,29,2,2,True,True
+folate_high,chem_hyperproteinemia,71,6,30,1,1,True,True
+folate_high,chem_decreased alt,75,2,31,0,0,True,True
+folate_high,chem_elevated alt,74,3,25,6,3,True,True
+folate_high,chem_elevated ast,76,1,30,1,1,True,True
+folate_high,chem_elevated alp,76,1,31,0,0,True,True
+folate_high,chem_elevated total bilirubin,75,2,31,0,0,True,True
+folate_high,chem_azotemia,66,11,24,7,7,False,False
+folate_high,chem_discordantly elevated bun,75,2,31,0,0,True,True
+folate_high,chem_hyperglycemia,76,1,30,1,1,True,True
+folate_high,chem_hypercholesterolemia,76,1,31,0,0,True,True
+folate_high,chem_hypercalcemia,77,0,30,1,0,True,True
+folate_high,chem_hypokalemia,73,4,29,2,2,True,False
+folate_high,chem_hypophosphatemia,75,2,31,0,0,True,True
+folate_low,tli_high,77,26,4,1,1,True,True
+folate_low,pli_abn,88,15,5,0,0,True,False
+folate_low,clinical signs_none,97,6,4,1,1,True,True
+folate_low,clinical signs_vomiting,38,65,4,1,1,True,True
+folate_low,clinical signs_diarrhea,69,34,5,0,0,True,False
+folate_low,clinical signs_hyporexia,90,13,3,2,2,True,True
+folate_low,clinical signs_weight loss,48,55,2,3,2,True,True
+folate_low,clinical signs_hairball obstruction,100,3,5,0,0,True,False
+folate_low,clinical signs_constipation,102,1,5,0,0,True,True
+folate_low,AUS_no abnormalities,99,4,5,0,0,True,False
+folate_low,AUS_duodenum,33,70,1,4,1,True,True
+folate_low,AUS_jejunum,35,68,1,4,1,True,True
+folate_low,AUS_ileum,78,25,4,1,1,True,True
+folate_low,AUS_colon,92,11,5,0,0,True,False
+folate_low,AUS_mesenteric lymphadenopathy,52,51,4,1,1,True,True
+folate_low,AUS_chronic degenerative renal changes,91,12,5,0,0,True,False
+folate_low,AUS_enlarged pancreas,77,26,4,1,1,True,True
+folate_low,AUS_splenomegaly,91,12,4,1,1,True,True
+folate_low,AUS_ileus,96,7,5,0,0,True,False
+folate_low,AUS_gall bladder sludge,88,15,3,2,2,True,True
+folate_low,CBC_no abnormalities,27,76,2,3,2,True,True
+folate_low,CBC_neutrophilia,101,2,5,0,0,True,True
+folate_low,CBC_neutropenia,99,4,5,0,0,True,False
+folate_low,CBC_eosinophilia,96,7,5,0,0,True,False
+folate_low,CBC_eosinopenia,102,1,5,0,0,True,True
+folate_low,CBC_basophilia,98,5,5,0,0,True,False
+folate_low,CBC_basocytosis,103,0,4,1,0,True,True
+folate_low,CBC_lymphocytosis,102,1,4,1,1,True,True
+folate_low,CBC_lymphopenia,98,5,4,1,1,True,True
+folate_low,CBC_monocytosis,91,12,5,0,0,True,False
+folate_low,CBC_anemia,100,3,5,0,0,True,False
+folate_low,chem_no abnormalities,41,62,3,2,2,True,True
+folate_low,chem_hypoproteinemia,97,6,5,0,0,True,False
+folate_low,chem_hyperproteinemia,96,7,5,0,0,True,True
+folate_low,chem_decreased alt,101,2,5,0,0,True,True
+folate_low,chem_elevated alt,95,8,4,1,1,True,True
+folate_low,chem_elevated ast,102,1,4,1,1,True,True
+folate_low,chem_elevated alp,102,1,5,0,0,True,True
+folate_low,chem_elevated total bilirubin,102,1,4,1,1,True,True
+folate_low,chem_azotemia,85,18,5,0,0,True,False
+folate_low,chem_discordantly elevated bun,102,1,4,1,1,True,True
+folate_low,chem_hyperglycemia,101,2,5,0,0,True,True
+folate_low,chem_hypercholesterolemia,102,1,5,0,0,True,True
+folate_low,chem_hypercalcemia,102,1,5,0,0,True,True
+folate_low,chem_hypokalemia,98,5,4,1,1,True,True
+folate_low,chem_hypophosphatemia,102,1,4,1,1,True,True
+tli_high,pli_abn,78,3,15,12,3,True,False
+tli_high,clinical signs_none,77,4,24,3,3,True,False
+tli_high,clinical signs_vomiting,31,50,11,16,11,False,False
+tli_high,clinical signs_diarrhea,54,27,20,7,7,False,True
+tli_high,clinical signs_hyporexia,69,12,24,3,3,True,True
+tli_high,clinical signs_weight loss,40,41,10,17,10,False,False
+tli_high,clinical signs_hairball obstruction,78,3,27,0,0,True,False
+tli_high,clinical signs_constipation,80,1,27,0,0,True,True
+tli_high,AUS_no abnormalities,77,4,27,0,0,True,False
+tli_high,AUS_duodenum,28,53,6,21,6,False,False
+tli_high,AUS_jejunum,31,50,5,22,5,False,True
+tli_high,AUS_ileum,62,19,20,7,7,False,False
+tli_high,AUS_colon,71,10,26,1,1,True,True
+tli_high,AUS_mesenteric lymphadenopathy,45,36,11,16,11,False,False
+tli_high,AUS_chronic degenerative renal changes,74,7,22,5,5,False,False
+tli_high,AUS_enlarged pancreas,64,17,17,10,10,False,False
+tli_high,AUS_splenomegaly,72,9,23,4,4,True,False
+tli_high,AUS_ileus,74,7,27,0,0,True,False
+tli_high,AUS_gall bladder sludge,69,12,22,5,5,False,True
+tli_high,CBC_no abnormalities,18,63,11,16,11,False,False
+tli_high,CBC_neutrophilia,80,1,26,1,1,True,True
+tli_high,CBC_neutropenia,78,3,26,1,1,True,True
+tli_high,CBC_eosinophilia,76,5,25,2,2,True,True
+tli_high,CBC_eosinopenia,80,1,27,0,0,True,True
+tli_high,CBC_basophilia,77,4,26,1,1,True,True
+tli_high,CBC_basocytosis,80,1,27,0,0,True,True
+tli_high,CBC_lymphocytosis,79,2,27,0,0,True,True
+tli_high,CBC_lymphopenia,77,4,25,2,2,True,True
+tli_high,CBC_monocytosis,74,7,22,5,5,False,True
+tli_high,CBC_anemia,79,2,26,1,1,True,True
+tli_high,chem_no abnormalities,29,52,15,12,12,False,False
+tli_high,chem_hypoproteinemia,79,2,23,4,2,True,False
+tli_high,chem_hyperproteinemia,76,5,25,2,2,True,True
+tli_high,chem_decreased alt,79,2,27,0,0,True,True
+tli_high,chem_elevated alt,75,6,24,3,3,True,True
+tli_high,chem_elevated ast,79,2,27,0,0,True,False
+tli_high,chem_elevated alp,80,1,27,0,0,True,True
+tli_high,chem_elevated total bilirubin,79,2,27,0,0,True,True
+tli_high,chem_azotemia,72,9,18,9,9,False,False
+tli_high,chem_discordantly elevated bun,79,2,27,0,0,True,True
+tli_high,chem_hyperglycemia,79,2,27,0,0,True,True
+tli_high,chem_hypercholesterolemia,80,1,27,0,0,True,True
+tli_high,chem_hypercalcemia,81,0,26,1,0,True,True
+tli_high,chem_hypokalemia,79,2,23,4,2,True,False
+tli_high,chem_hypophosphatemia,80,1,26,1,1,True,True
+pli_abn,clinical signs_none,88,5,13,2,2,True,False
+pli_abn,clinical signs_vomiting,36,57,6,9,6,False,False
+pli_abn,clinical signs_diarrhea,61,32,13,2,2,True,False
+pli_abn,clinical signs_hyporexia,80,13,13,2,2,True,True
+pli_abn,clinical signs_weight loss,44,49,6,9,6,False,False
+pli_abn,clinical signs_hairball obstruction,90,3,15,0,0,True,False
+pli_abn,clinical signs_constipation,92,1,15,0,0,True,True
+pli_abn,AUS_no abnormalities,89,4,15,0,0,True,False
+pli_abn,AUS_duodenum,32,61,2,13,2,True,False
+pli_abn,AUS_jejunum,33,60,3,12,3,True,False
+pli_abn,AUS_ileum,72,21,10,5,5,False,False
+pli_abn,AUS_colon,83,10,14,1,1,True,True
+pli_abn,AUS_mesenteric lymphadenopathy,48,45,8,7,7,False,False
+pli_abn,AUS_chronic degenerative renal changes,83,10,13,2,2,True,True
+pli_abn,AUS_enlarged pancreas,73,20,8,7,7,False,False
+pli_abn,AUS_splenomegaly,83,10,12,3,3,True,False
+pli_abn,AUS_ileus,86,7,15,0,0,True,False
+pli_abn,AUS_gall bladder sludge,78,15,13,2,2,True,True
+pli_abn,CBC_no abnormalities,23,70,6,9,6,False,False
+pli_abn,CBC_neutrophilia,93,0,13,2,0,True,True
+pli_abn,CBC_neutropenia,89,4,15,0,0,True,False
+pli_abn,CBC_eosinophilia,88,5,13,2,2,True,False
+pli_abn,CBC_eosinopenia,92,1,15,0,0,True,True
+pli_abn,CBC_basophilia,90,3,13,2,2,True,False
+pli_abn,CBC_basocytosis,92,1,15,0,0,True,True
+pli_abn,CBC_lymphocytosis,91,2,15,0,0,True,True
+pli_abn,CBC_lymphopenia,88,5,14,1,1,True,True
+pli_abn,CBC_monocytosis,84,9,12,3,3,True,False
+pli_abn,CBC_anemia,91,2,14,1,1,True,True
+pli_abn,chem_no abnormalities,36,57,8,7,7,False,False
+pli_abn,chem_hypoproteinemia,89,4,13,2,2,True,False
+pli_abn,chem_hyperproteinemia,87,6,14,1,1,True,True
+pli_abn,chem_decreased alt,92,1,14,1,1,True,True
+pli_abn,chem_elevated alt,85,8,14,1,1,True,True
+pli_abn,chem_elevated ast,91,2,15,0,0,True,False
+pli_abn,chem_elevated alp,92,1,15,0,0,True,True
+pli_abn,chem_elevated total bilirubin,91,2,15,0,0,True,True
+pli_abn,chem_azotemia,81,12,9,6,6,False,False
+pli_abn,chem_discordantly elevated bun,91,2,15,0,0,True,True
+pli_abn,chem_hyperglycemia,91,2,15,0,0,True,True
+pli_abn,chem_hypercholesterolemia,92,1,15,0,0,True,True
+pli_abn,chem_hypercalcemia,92,1,15,0,0,True,True
+pli_abn,chem_hypokalemia,89,4,13,2,2,True,False
+pli_abn,chem_hypophosphatemia,91,2,15,0,0,True,True
+clinical signs_none,clinical signs_vomiting,35,66,7,0,0,True,False
+clinical signs_none,clinical signs_diarrhea,67,34,7,0,0,True,False
+clinical signs_none,clinical signs_hyporexia,86,15,7,0,0,True,False
+clinical signs_none,clinical signs_weight loss,43,58,7,0,0,True,False
+clinical signs_none,clinical signs_hairball obstruction,98,3,7,0,0,True,False
+clinical signs_none,clinical signs_constipation,100,1,7,0,0,True,True
+clinical signs_none,AUS_no abnormalities,97,4,7,0,0,True,False
+clinical signs_none,AUS_duodenum,32,69,2,5,2,True,False
+clinical signs_none,AUS_jejunum,34,67,2,5,2,True,True
+clinical signs_none,AUS_ileum,76,25,6,1,1,True,True
+clinical signs_none,AUS_colon,91,10,6,1,1,True,True
+clinical signs_none,AUS_mesenteric lymphadenopathy,49,52,7,0,0,True,False
+clinical signs_none,AUS_chronic degenerative renal changes,90,11,6,1,1,True,True
+clinical signs_none,AUS_enlarged pancreas,77,24,4,3,3,True,True
+clinical signs_none,AUS_splenomegaly,88,13,7,0,0,True,False
+clinical signs_none,AUS_ileus,94,7,7,0,0,True,False
+clinical signs_none,AUS_gall bladder sludge,85,16,6,1,1,True,True
+clinical signs_none,CBC_no abnormalities,28,73,1,6,1,True,True
+clinical signs_none,CBC_neutrophilia,99,2,7,0,0,True,True
+clinical signs_none,CBC_neutropenia,97,4,7,0,0,True,False
+clinical signs_none,CBC_eosinophilia,94,7,7,0,0,True,False
+clinical signs_none,CBC_eosinopenia,100,1,7,0,0,True,True
+clinical signs_none,CBC_basophilia,96,5,7,0,0,True,False
+clinical signs_none,CBC_basocytosis,100,1,7,0,0,True,True
+clinical signs_none,CBC_lymphocytosis,99,2,7,0,0,True,True
+clinical signs_none,CBC_lymphopenia,95,6,7,0,0,True,False
+clinical signs_none,CBC_monocytosis,89,12,7,0,0,True,False
+clinical signs_none,CBC_anemia,99,2,6,1,1,True,True
+clinical signs_none,chem_no abnormalities,37,64,7,0,0,True,False
+clinical signs_none,chem_hypoproteinemia,95,6,7,0,0,True,False
+clinical signs_none,chem_hyperproteinemia,95,6,6,1,1,True,True
+clinical signs_none,chem_decreased alt,99,2,7,0,0,True,True
+clinical signs_none,chem_elevated alt,97,4,2,5,2,True,False
+clinical signs_none,chem_elevated ast,99,2,7,0,0,True,False
+clinical signs_none,chem_elevated alp,100,1,7,0,0,True,True
+clinical signs_none,chem_elevated total bilirubin,100,1,6,1,1,True,True
+clinical signs_none,chem_azotemia,85,16,5,2,2,True,False
+clinical signs_none,chem_discordantly elevated bun,99,2,7,0,0,True,True
+clinical signs_none,chem_hyperglycemia,99,2,7,0,0,True,True
+clinical signs_none,chem_hypercholesterolemia,100,1,7,0,0,True,True
+clinical signs_none,chem_hypercalcemia,100,1,7,0,0,True,True
+clinical signs_none,chem_hypokalemia,98,3,4,3,3,True,False
+clinical signs_none,chem_hypophosphatemia,100,1,6,1,1,True,True
+clinical signs_vomiting,clinical signs_diarrhea,28,14,46,20,14,False,False
+clinical signs_vomiting,clinical signs_hyporexia,34,8,59,7,7,False,False
+clinical signs_vomiting,clinical signs_weight loss,17,25,33,33,17,False,False
+clinical signs_vomiting,clinical signs_hairball obstruction,42,0,63,3,0,True,False
+clinical signs_vomiting,clinical signs_constipation,42,0,65,1,0,True,True
+clinical signs_vomiting,AUS_no abnormalities,42,0,62,4,0,True,False
+clinical signs_vomiting,AUS_duodenum,15,27,19,47,15,False,False
+clinical signs_vomiting,AUS_jejunum,14,28,22,44,14,False,False
+clinical signs_vomiting,AUS_ileum,34,8,48,18,8,False,False
+clinical signs_vomiting,AUS_colon,35,7,62,4,4,True,True
+clinical signs_vomiting,AUS_mesenteric lymphadenopathy,23,19,33,33,19,False,False
+clinical signs_vomiting,AUS_chronic degenerative renal changes,37,5,59,7,5,False,False
+clinical signs_vomiting,AUS_enlarged pancreas,33,9,48,18,9,False,False
+clinical signs_vomiting,AUS_splenomegaly,34,8,61,5,5,False,False
+clinical signs_vomiting,AUS_ileus,39,3,62,4,3,True,False
+clinical signs_vomiting,AUS_gall bladder sludge,35,7,56,10,7,False,False
+clinical signs_vomiting,CBC_no abnormalities,12,30,17,49,12,False,False
+clinical signs_vomiting,CBC_neutrophilia,41,1,65,1,1,True,True
+clinical signs_vomiting,CBC_neutropenia,41,1,63,3,1,True,True
+clinical signs_vomiting,CBC_eosinophilia,42,0,59,7,0,True,False
+clinical signs_vomiting,CBC_eosinopenia,41,1,66,0,0,True,True
+clinical signs_vomiting,CBC_basophilia,42,0,61,5,0,True,False
+clinical signs_vomiting,CBC_basocytosis,41,1,66,0,0,True,True
+clinical signs_vomiting,CBC_lymphocytosis,41,1,65,1,1,True,True
+clinical signs_vomiting,CBC_lymphopenia,39,3,63,3,3,True,False
+clinical signs_vomiting,CBC_monocytosis,37,5,59,7,5,False,False
+clinical signs_vomiting,CBC_anemia,39,3,66,0,0,True,False
+clinical signs_vomiting,chem_no abnormalities,23,19,21,45,19,False,False
+clinical signs_vomiting,chem_hypoproteinemia,41,1,61,5,1,True,True
+clinical signs_vomiting,chem_hyperproteinemia,37,5,64,2,2,True,True
+clinical signs_vomiting,chem_decreased alt,42,0,64,2,0,True,True
+clinical signs_vomiting,chem_elevated alt,36,6,63,3,3,True,False
+clinical signs_vomiting,chem_elevated ast,41,1,65,1,1,True,True
+clinical signs_vomiting,chem_elevated alp,42,0,65,1,0,True,True
+clinical signs_vomiting,chem_elevated total bilirubin,41,1,65,1,1,True,True
+clinical signs_vomiting,chem_azotemia,30,12,60,6,6,False,False
+clinical signs_vomiting,chem_discordantly elevated bun,40,2,66,0,0,True,True
+clinical signs_vomiting,chem_hyperglycemia,42,0,64,2,0,True,True
+clinical signs_vomiting,chem_hypercholesterolemia,42,0,65,1,0,True,True
+clinical signs_vomiting,chem_hypercalcemia,41,1,66,0,0,True,True
+clinical signs_vomiting,chem_hypokalemia,39,3,63,3,3,True,False
+clinical signs_vomiting,chem_hypophosphatemia,41,1,65,1,1,True,True
+clinical signs_diarrhea,clinical signs_hyporexia,61,13,32,2,2,True,False
+clinical signs_diarrhea,clinical signs_weight loss,35,39,15,19,15,False,False
+clinical signs_diarrhea,clinical signs_hairball obstruction,71,3,34,0,0,True,False
+clinical signs_diarrhea,clinical signs_constipation,73,1,34,0,0,True,True
+clinical signs_diarrhea,AUS_no abnormalities,70,4,34,0,0,True,False
+clinical signs_diarrhea,AUS_duodenum,26,48,8,26,8,False,False
+clinical signs_diarrhea,AUS_jejunum,26,48,10,24,10,False,False
+clinical signs_diarrhea,AUS_ileum,61,13,21,13,13,False,False
+clinical signs_diarrhea,AUS_colon,72,2,25,9,2,True,False
+clinical signs_diarrhea,AUS_mesenteric lymphadenopathy,42,32,14,20,14,False,False
+clinical signs_diarrhea,AUS_chronic degenerative renal changes,66,8,30,4,4,True,False
+clinical signs_diarrhea,AUS_enlarged pancreas,54,20,27,7,7,False,False
+clinical signs_diarrhea,AUS_splenomegaly,66,8,29,5,5,False,False
+clinical signs_diarrhea,AUS_ileus,67,7,34,0,0,True,False
+clinical signs_diarrhea,AUS_gall bladder sludge,62,12,29,5,5,False,False
+clinical signs_diarrhea,CBC_no abnormalities,20,54,9,25,9,False,False
+clinical signs_diarrhea,CBC_neutrophilia,73,1,33,1,1,True,True
+clinical signs_diarrhea,CBC_neutropenia,70,4,34,0,0,True,False
+clinical signs_diarrhea,CBC_eosinophilia,70,4,31,3,3,True,False
+clinical signs_diarrhea,CBC_eosinopenia,74,0,33,1,0,True,True
+clinical signs_diarrhea,CBC_basophilia,72,2,31,3,2,True,False
+clinical signs_diarrhea,CBC_basocytosis,73,1,34,0,0,True,True
+clinical signs_diarrhea,CBC_lymphocytosis,73,1,33,1,1,True,True
+clinical signs_diarrhea,CBC_lymphopenia,69,5,33,1,1,True,True
+clinical signs_diarrhea,CBC_monocytosis,68,6,28,6,6,False,False
+clinical signs_diarrhea,CBC_anemia,71,3,34,0,0,True,False
+clinical signs_diarrhea,chem_no abnormalities,35,39,9,25,9,False,False
+clinical signs_diarrhea,chem_hypoproteinemia,69,5,33,1,1,True,True
+clinical signs_diarrhea,chem_hyperproteinemia,68,6,33,1,1,True,True
+clinical signs_diarrhea,chem_decreased alt,73,1,33,1,1,True,True
+clinical signs_diarrhea,chem_elevated alt,66,8,33,1,1,True,True
+clinical signs_diarrhea,chem_elevated ast,73,1,33,1,1,True,True
+clinical signs_diarrhea,chem_elevated alp,73,1,34,0,0,True,True
+clinical signs_diarrhea,chem_elevated total bilirubin,72,2,34,0,0,True,True
+clinical signs_diarrhea,chem_azotemia,59,15,31,3,3,True,True
+clinical signs_diarrhea,chem_discordantly elevated bun,73,1,33,1,1,True,True
+clinical signs_diarrhea,chem_hyperglycemia,72,2,34,0,0,True,True
+clinical signs_diarrhea,chem_hypercholesterolemia,73,1,34,0,0,True,True
+clinical signs_diarrhea,chem_hypercalcemia,74,0,33,1,0,True,True
+clinical signs_diarrhea,chem_hypokalemia,68,6,34,0,0,True,False
+clinical signs_diarrhea,chem_hypophosphatemia,72,2,34,0,0,True,True
+clinical signs_hyporexia,clinical signs_weight loss,42,51,8,7,7,False,False
+clinical signs_hyporexia,clinical signs_hairball obstruction,90,3,15,0,0,True,False
+clinical signs_hyporexia,clinical signs_constipation,92,1,15,0,0,True,True
+clinical signs_hyporexia,AUS_no abnormalities,90,3,14,1,1,True,True
+clinical signs_hyporexia,AUS_duodenum,26,67,8,7,7,False,False
+clinical signs_hyporexia,AUS_jejunum,29,64,7,8,7,False,False
+clinical signs_hyporexia,AUS_ileum,68,25,14,1,1,True,True
+clinical signs_hyporexia,AUS_colon,82,11,15,0,0,True,False
+clinical signs_hyporexia,AUS_mesenteric lymphadenopathy,45,48,11,4,4,True,True
+clinical signs_hyporexia,AUS_chronic degenerative renal changes,82,11,14,1,1,True,True
+clinical signs_hyporexia,AUS_enlarged pancreas,70,23,11,4,4,True,True
+clinical signs_hyporexia,AUS_splenomegaly,81,12,14,1,1,True,True
+clinical signs_hyporexia,AUS_ileus,87,6,14,1,1,True,True
+clinical signs_hyporexia,AUS_gall bladder sludge,79,14,12,3,3,True,True
+clinical signs_hyporexia,CBC_no abnormalities,25,68,4,11,4,True,True
+clinical signs_hyporexia,CBC_neutrophilia,91,2,15,0,0,True,True
+clinical signs_hyporexia,CBC_neutropenia,90,3,14,1,1,True,True
+clinical signs_hyporexia,CBC_eosinophilia,86,7,15,0,0,True,False
+clinical signs_hyporexia,CBC_eosinopenia,92,1,15,0,0,True,True
+clinical signs_hyporexia,CBC_basophilia,88,5,15,0,0,True,False
+clinical signs_hyporexia,CBC_basocytosis,92,1,15,0,0,True,True
+clinical signs_hyporexia,CBC_lymphocytosis,92,1,14,1,1,True,True
+clinical signs_hyporexia,CBC_lymphopenia,88,5,14,1,1,True,True
+clinical signs_hyporexia,CBC_monocytosis,83,10,13,2,2,True,True
+clinical signs_hyporexia,CBC_anemia,91,2,14,1,1,True,True
+clinical signs_hyporexia,chem_no abnormalities,39,54,5,10,5,False,False
+clinical signs_hyporexia,chem_hypoproteinemia,88,5,14,1,1,True,True
+clinical signs_hyporexia,chem_hyperproteinemia,88,5,13,2,2,True,True
+clinical signs_hyporexia,chem_decreased alt,91,2,15,0,0,True,True
+clinical signs_hyporexia,chem_elevated alt,85,8,14,1,1,True,True
+clinical signs_hyporexia,chem_elevated ast,92,1,14,1,1,True,True
+clinical signs_hyporexia,chem_elevated alp,92,1,15,0,0,True,True
+clinical signs_hyporexia,chem_elevated total bilirubin,92,1,14,1,1,True,True
+clinical signs_hyporexia,chem_azotemia,77,16,13,2,2,True,False
+clinical signs_hyporexia,chem_discordantly elevated bun,91,2,15,0,0,True,True
+clinical signs_hyporexia,chem_hyperglycemia,91,2,15,0,0,True,True
+clinical signs_hyporexia,chem_hypercholesterolemia,93,0,14,1,0,True,True
+clinical signs_hyporexia,chem_hypercalcemia,92,1,15,0,0,True,True
+clinical signs_hyporexia,chem_hypokalemia,87,6,15,0,0,True,False
+clinical signs_hyporexia,chem_hypophosphatemia,91,2,15,0,0,True,True
+clinical signs_weight loss,clinical signs_hairball obstruction,47,3,58,0,0,True,False
+clinical signs_weight loss,clinical signs_constipation,49,1,58,0,0,True,True
+clinical signs_weight loss,AUS_no abnormalities,46,4,58,0,0,True,False
+clinical signs_weight loss,AUS_duodenum,19,31,15,43,15,False,False
+clinical signs_weight loss,AUS_jejunum,19,31,17,41,17,False,False
+clinical signs_weight loss,AUS_ileum,40,10,42,16,10,False,False
+clinical signs_weight loss,AUS_colon,45,5,52,6,5,False,False
+clinical signs_weight loss,AUS_mesenteric lymphadenopathy,31,19,25,33,19,False,False
+clinical signs_weight loss,AUS_chronic degenerative renal changes,44,6,52,6,6,False,False
+clinical signs_weight loss,AUS_enlarged pancreas,37,13,44,14,13,False,False
+clinical signs_weight loss,AUS_splenomegaly,42,8,53,5,5,False,False
+clinical signs_weight loss,AUS_ileus,47,3,54,4,3,True,False
+clinical signs_weight loss,AUS_gall bladder sludge,45,5,46,12,5,False,False
+clinical signs_weight loss,CBC_no abnormalities,13,37,16,42,13,False,False
+clinical signs_weight loss,CBC_neutrophilia,50,0,56,2,0,True,True
+clinical signs_weight loss,CBC_neutropenia,48,2,56,2,2,True,True
+clinical signs_weight loss,CBC_eosinophilia,48,2,53,5,2,True,True
+clinical signs_weight loss,CBC_eosinopenia,50,0,57,1,0,True,True
+clinical signs_weight loss,CBC_basophilia,47,3,56,2,2,True,True
+clinical signs_weight loss,CBC_basocytosis,50,0,57,1,0,True,True
+clinical signs_weight loss,CBC_lymphocytosis,48,2,58,0,0,True,True
+clinical signs_weight loss,CBC_lymphopenia,47,3,55,3,3,True,False
+clinical signs_weight loss,CBC_monocytosis,44,6,52,6,6,False,False
+clinical signs_weight loss,CBC_anemia,49,1,56,2,1,True,True
+clinical signs_weight loss,chem_no abnormalities,20,30,24,34,20,False,False
+clinical signs_weight loss,chem_hypoproteinemia,49,1,53,5,1,True,True
+clinical signs_weight loss,chem_hyperproteinemia,48,2,53,5,2,True,True
+clinical signs_weight loss,chem_decreased alt,50,0,56,2,0,True,True
+clinical signs_weight loss,chem_elevated alt,43,7,56,2,2,True,True
+clinical signs_weight loss,chem_elevated ast,48,2,58,0,0,True,False
+clinical signs_weight loss,chem_elevated alp,49,1,58,0,0,True,True
+clinical signs_weight loss,chem_elevated total bilirubin,48,2,58,0,0,True,True
+clinical signs_weight loss,chem_azotemia,45,5,45,13,5,False,False
+clinical signs_weight loss,chem_discordantly elevated bun,49,1,57,1,1,True,True
+clinical signs_weight loss,chem_hyperglycemia,48,2,58,0,0,True,True
+clinical signs_weight loss,chem_hypercholesterolemia,49,1,58,0,0,True,True
+clinical signs_weight loss,chem_hypercalcemia,49,1,58,0,0,True,True
+clinical signs_weight loss,chem_hypokalemia,45,5,57,1,1,True,True
+clinical signs_weight loss,chem_hypophosphatemia,48,2,58,0,0,True,True
+clinical signs_hairball obstruction,clinical signs_constipation,104,1,3,0,0,True,True
+clinical signs_hairball obstruction,AUS_no abnormalities,101,4,3,0,0,True,False
+clinical signs_hairball obstruction,AUS_duodenum,32,73,2,1,1,True,True
+clinical signs_hairball obstruction,AUS_jejunum,33,72,3,0,0,True,False
+clinical signs_hairball obstruction,AUS_ileum,79,26,3,0,0,True,False
+clinical signs_hairball obstruction,AUS_colon,94,11,3,0,0,True,False
+clinical signs_hairball obstruction,AUS_mesenteric lymphadenopathy,53,52,3,0,0,True,False
+clinical signs_hairball obstruction,AUS_chronic degenerative renal changes,93,12,3,0,0,True,False
+clinical signs_hairball obstruction,AUS_enlarged pancreas,78,27,3,0,0,True,False
+clinical signs_hairball obstruction,AUS_splenomegaly,92,13,3,0,0,True,False
+clinical signs_hairball obstruction,AUS_ileus,101,4,0,3,0,True,False
+clinical signs_hairball obstruction,AUS_gall bladder sludge,88,17,3,0,0,True,False
+clinical signs_hairball obstruction,CBC_no abnormalities,29,76,0,3,0,True,False
+clinical signs_hairball obstruction,CBC_neutrophilia,103,2,3,0,0,True,True
+clinical signs_hairball obstruction,CBC_neutropenia,101,4,3,0,0,True,False
+clinical signs_hairball obstruction,CBC_eosinophilia,98,7,3,0,0,True,False
+clinical signs_hairball obstruction,CBC_eosinopenia,104,1,3,0,0,True,True
+clinical signs_hairball obstruction,CBC_basophilia,100,5,3,0,0,True,False
+clinical signs_hairball obstruction,CBC_basocytosis,104,1,3,0,0,True,True
+clinical signs_hairball obstruction,CBC_lymphocytosis,103,2,3,0,0,True,True
+clinical signs_hairball obstruction,CBC_lymphopenia,99,6,3,0,0,True,False
+clinical signs_hairball obstruction,CBC_monocytosis,93,12,3,0,0,True,False
+clinical signs_hairball obstruction,CBC_anemia,102,3,3,0,0,True,False
+clinical signs_hairball obstruction,chem_no abnormalities,42,63,2,1,1,True,True
+clinical signs_hairball obstruction,chem_hypoproteinemia,99,6,3,0,0,True,False
+clinical signs_hairball obstruction,chem_hyperproteinemia,98,7,3,0,0,True,True
+clinical signs_hairball obstruction,chem_decreased alt,103,2,3,0,0,True,True
+clinical signs_hairball obstruction,chem_elevated alt,96,9,3,0,0,True,False
+clinical signs_hairball obstruction,chem_elevated ast,103,2,3,0,0,True,False
+clinical signs_hairball obstruction,chem_elevated alp,104,1,3,0,0,True,True
+clinical signs_hairball obstruction,chem_elevated total bilirubin,103,2,3,0,0,True,True
+clinical signs_hairball obstruction,chem_azotemia,87,18,3,0,0,True,False
+clinical signs_hairball obstruction,chem_discordantly elevated bun,103,2,3,0,0,True,True
+clinical signs_hairball obstruction,chem_hyperglycemia,105,0,1,2,0,True,True
+clinical signs_hairball obstruction,chem_hypercholesterolemia,104,1,3,0,0,True,True
+clinical signs_hairball obstruction,chem_hypercalcemia,104,1,3,0,0,True,True
+clinical signs_hairball obstruction,chem_hypokalemia,100,5,2,1,1,True,True
+clinical signs_hairball obstruction,chem_hypophosphatemia,103,2,3,0,0,True,True
+clinical signs_constipation,AUS_no abnormalities,103,4,1,0,0,True,True
+clinical signs_constipation,AUS_duodenum,33,74,1,0,0,True,True
+clinical signs_constipation,AUS_jejunum,36,71,0,1,0,True,True
+clinical signs_constipation,AUS_ileum,82,25,0,1,0,True,True
+clinical signs_constipation,AUS_colon,96,11,1,0,0,True,True
+clinical signs_constipation,AUS_mesenteric lymphadenopathy,56,51,0,1,0,True,True
+clinical signs_constipation,AUS_chronic degenerative renal changes,95,12,1,0,0,True,True
+clinical signs_constipation,AUS_enlarged pancreas,80,27,1,0,0,True,True
+clinical signs_constipation,AUS_splenomegaly,94,13,1,0,0,True,True
+clinical signs_constipation,AUS_ileus,100,7,1,0,0,True,True
+clinical signs_constipation,AUS_gall bladder sludge,90,17,1,0,0,True,True
+clinical signs_constipation,CBC_no abnormalities,29,78,0,1,0,True,True
+clinical signs_constipation,CBC_neutrophilia,105,2,1,0,0,True,True
+clinical signs_constipation,CBC_neutropenia,103,4,1,0,0,True,True
+clinical signs_constipation,CBC_eosinophilia,100,7,1,0,0,True,True
+clinical signs_constipation,CBC_eosinopenia,106,1,1,0,0,True,True
+clinical signs_constipation,CBC_basophilia,102,5,1,0,0,True,True
+clinical signs_constipation,CBC_basocytosis,106,1,1,0,0,True,True
+clinical signs_constipation,CBC_lymphocytosis,105,2,1,0,0,True,True
+clinical signs_constipation,CBC_lymphopenia,101,6,1,0,0,True,True
+clinical signs_constipation,CBC_monocytosis,95,12,1,0,0,True,True
+clinical signs_constipation,CBC_anemia,104,3,1,0,0,True,True
+clinical signs_constipation,chem_no abnormalities,44,63,0,1,0,True,True
+clinical signs_constipation,chem_hypoproteinemia,101,6,1,0,0,True,True
+clinical signs_constipation,chem_hyperproteinemia,100,7,1,0,0,True,True
+clinical signs_constipation,chem_decreased alt,105,2,1,0,0,True,True
+clinical signs_constipation,chem_elevated alt,98,9,1,0,0,True,True
+clinical signs_constipation,chem_elevated ast,105,2,1,0,0,True,True
+clinical signs_constipation,chem_elevated alp,106,1,1,0,0,True,True
+clinical signs_constipation,chem_elevated total bilirubin,105,2,1,0,0,True,True
+clinical signs_constipation,chem_azotemia,89,18,1,0,0,True,True
+clinical signs_constipation,chem_discordantly elevated bun,105,2,1,0,0,True,True
+clinical signs_constipation,chem_hyperglycemia,105,2,1,0,0,True,True
+clinical signs_constipation,chem_hypercholesterolemia,106,1,1,0,0,True,True
+clinical signs_constipation,chem_hypercalcemia,106,1,1,0,0,True,True
+clinical signs_constipation,chem_hypokalemia,101,6,1,0,0,True,True
+clinical signs_constipation,chem_hypophosphatemia,105,2,1,0,0,True,True
+AUS_no abnormalities,AUS_duodenum,30,74,4,0,0,True,False
+AUS_no abnormalities,AUS_jejunum,32,72,4,0,0,True,False
+AUS_no abnormalities,AUS_ileum,78,26,4,0,0,True,False
+AUS_no abnormalities,AUS_colon,93,11,4,0,0,True,False
+AUS_no abnormalities,AUS_mesenteric lymphadenopathy,52,52,4,0,0,True,False
+AUS_no abnormalities,AUS_chronic degenerative renal changes,92,12,4,0,0,True,False
+AUS_no abnormalities,AUS_enlarged pancreas,77,27,4,0,0,True,False
+AUS_no abnormalities,AUS_splenomegaly,91,13,4,0,0,True,False
+AUS_no abnormalities,AUS_ileus,97,7,4,0,0,True,False
+AUS_no abnormalities,AUS_gall bladder sludge,87,17,4,0,0,True,False
+AUS_no abnormalities,CBC_no abnormalities,29,75,0,4,0,True,False
+AUS_no abnormalities,CBC_neutrophilia,102,2,4,0,0,True,True
+AUS_no abnormalities,CBC_neutropenia,100,4,4,0,0,True,False
+AUS_no abnormalities,CBC_eosinophilia,97,7,4,0,0,True,False
+AUS_no abnormalities,CBC_eosinopenia,103,1,4,0,0,True,True
+AUS_no abnormalities,CBC_basophilia,99,5,4,0,0,True,False
+AUS_no abnormalities,CBC_basocytosis,103,1,4,0,0,True,True
+AUS_no abnormalities,CBC_lymphocytosis,102,2,4,0,0,True,True
+AUS_no abnormalities,CBC_lymphopenia,98,6,4,0,0,True,False
+AUS_no abnormalities,CBC_monocytosis,92,12,4,0,0,True,False
+AUS_no abnormalities,CBC_anemia,101,3,4,0,0,True,False
+AUS_no abnormalities,chem_no abnormalities,42,62,2,2,2,True,True
+AUS_no abnormalities,chem_hypoproteinemia,98,6,4,0,0,True,False
+AUS_no abnormalities,chem_hyperproteinemia,97,7,4,0,0,True,True
+AUS_no abnormalities,chem_decreased alt,102,2,4,0,0,True,True
+AUS_no abnormalities,chem_elevated alt,96,8,3,1,1,True,True
+AUS_no abnormalities,chem_elevated ast,102,2,4,0,0,True,False
+AUS_no abnormalities,chem_elevated alp,103,1,4,0,0,True,True
+AUS_no abnormalities,chem_elevated total bilirubin,102,2,4,0,0,True,True
+AUS_no abnormalities,chem_azotemia,86,18,4,0,0,True,False
+AUS_no abnormalities,chem_discordantly elevated bun,102,2,4,0,0,True,True
+AUS_no abnormalities,chem_hyperglycemia,102,2,4,0,0,True,True
+AUS_no abnormalities,chem_hypercholesterolemia,103,1,4,0,0,True,True
+AUS_no abnormalities,chem_hypercalcemia,103,1,4,0,0,True,True
+AUS_no abnormalities,chem_hypokalemia,99,5,3,1,1,True,True
+AUS_no abnormalities,chem_hypophosphatemia,103,1,3,1,1,True,True
+AUS_duodenum,AUS_jejunum,16,18,20,54,16,False,False
+AUS_duodenum,AUS_ileum,30,4,52,22,4,True,False
+AUS_duodenum,AUS_colon,31,3,66,8,3,True,False
+AUS_duodenum,AUS_mesenteric lymphadenopathy,16,18,40,34,16,False,False
+AUS_duodenum,AUS_chronic degenerative renal changes,30,4,66,8,4,True,False
+AUS_duodenum,AUS_enlarged pancreas,29,5,52,22,5,False,False
+AUS_duodenum,AUS_splenomegaly,30,4,65,9,4,True,False
+AUS_duodenum,AUS_ileus,29,5,72,2,2,True,True
+AUS_duodenum,AUS_gall bladder sludge,29,5,62,12,5,False,False
+AUS_duodenum,CBC_no abnormalities,10,24,19,55,10,False,False
+AUS_duodenum,CBC_neutrophilia,34,0,72,2,0,True,True
+AUS_duodenum,CBC_neutropenia,31,3,73,1,1,True,True
+AUS_duodenum,CBC_eosinophilia,32,2,69,5,2,True,False
+AUS_duodenum,CBC_eosinopenia,34,0,73,1,0,True,True
+AUS_duodenum,CBC_basophilia,32,2,71,3,2,True,False
+AUS_duodenum,CBC_basocytosis,34,0,73,1,0,True,True
+AUS_duodenum,CBC_lymphocytosis,34,0,72,2,0,True,True
+AUS_duodenum,CBC_lymphopenia,33,1,69,5,1,True,True
+AUS_duodenum,CBC_monocytosis,29,5,67,7,5,False,False
+AUS_duodenum,CBC_anemia,31,3,74,0,0,True,False
+AUS_duodenum,chem_no abnormalities,14,20,30,44,14,False,False
+AUS_duodenum,chem_hypoproteinemia,34,0,68,6,0,True,False
+AUS_duodenum,chem_hyperproteinemia,30,4,71,3,3,True,True
+AUS_duodenum,chem_decreased alt,34,0,72,2,0,True,True
+AUS_duodenum,chem_elevated alt,32,2,67,7,2,True,False
+AUS_duodenum,chem_elevated ast,34,0,72,2,0,True,False
+AUS_duodenum,chem_elevated alp,34,0,73,1,0,True,True
+AUS_duodenum,chem_elevated total bilirubin,34,0,72,2,0,True,True
+AUS_duodenum,chem_azotemia,29,5,61,13,5,False,False
+AUS_duodenum,chem_discordantly elevated bun,34,0,72,2,0,True,True
+AUS_duodenum,chem_hyperglycemia,32,2,74,0,0,True,True
+AUS_duodenum,chem_hypercholesterolemia,33,1,74,0,0,True,True
+AUS_duodenum,chem_hypercalcemia,34,0,73,1,0,True,True
+AUS_duodenum,chem_hypokalemia,30,4,72,2,2,True,True
+AUS_duodenum,chem_hypophosphatemia,33,1,73,1,1,True,True
+AUS_jejunum,AUS_ileum,32,4,50,22,4,True,False
+AUS_jejunum,AUS_colon,32,4,65,7,4,True,False
+AUS_jejunum,AUS_mesenteric lymphadenopathy,25,11,31,41,11,False,False
+AUS_jejunum,AUS_chronic degenerative renal changes,32,4,64,8,4,True,False
+AUS_jejunum,AUS_enlarged pancreas,26,10,55,17,10,False,True
+AUS_jejunum,AUS_splenomegaly,33,3,62,10,3,True,False
+AUS_jejunum,AUS_ileus,31,5,70,2,2,True,False
+AUS_jejunum,AUS_gall bladder sludge,28,8,63,9,8,False,False
+AUS_jejunum,CBC_no abnormalities,9,27,20,52,9,False,False
+AUS_jejunum,CBC_neutrophilia,36,0,70,2,0,True,True
+AUS_jejunum,CBC_neutropenia,35,1,69,3,1,True,True
+AUS_jejunum,CBC_eosinophilia,34,2,67,5,2,True,False
+AUS_jejunum,CBC_eosinopenia,35,1,72,0,0,True,True
+AUS_jejunum,CBC_basophilia,34,2,69,3,2,True,False
+AUS_jejunum,CBC_basocytosis,36,0,71,1,0,True,True
+AUS_jejunum,CBC_lymphocytosis,35,1,71,1,1,True,True
+AUS_jejunum,CBC_lymphopenia,33,3,69,3,3,True,False
+AUS_jejunum,CBC_monocytosis,33,3,63,9,3,True,False
+AUS_jejunum,CBC_anemia,35,1,70,2,1,True,True
+AUS_jejunum,chem_no abnormalities,11,25,33,39,11,False,False
+AUS_jejunum,chem_hypoproteinemia,36,0,66,6,0,True,False
+AUS_jejunum,chem_hyperproteinemia,34,2,67,5,2,True,True
+AUS_jejunum,chem_decreased alt,36,0,70,2,0,True,True
+AUS_jejunum,chem_elevated alt,31,5,68,4,4,True,False
+AUS_jejunum,chem_elevated ast,36,0,70,2,0,True,False
+AUS_jejunum,chem_elevated alp,36,0,71,1,0,True,True
+AUS_jejunum,chem_elevated total bilirubin,36,0,70,2,0,True,True
+AUS_jejunum,chem_azotemia,34,2,56,16,2,True,True
+AUS_jejunum,chem_discordantly elevated bun,36,0,70,2,0,True,True
+AUS_jejunum,chem_hyperglycemia,34,2,72,0,0,True,True
+AUS_jejunum,chem_hypercholesterolemia,36,0,71,1,0,True,True
+AUS_jejunum,chem_hypercalcemia,36,0,71,1,0,True,True
+AUS_jejunum,chem_hypokalemia,34,2,68,4,2,True,False
+AUS_jejunum,chem_hypophosphatemia,35,1,71,1,1,True,True
+AUS_ileum,AUS_colon,78,4,19,7,4,True,False
+AUS_ileum,AUS_mesenteric lymphadenopathy,47,35,9,17,9,False,False
+AUS_ileum,AUS_chronic degenerative renal changes,70,12,26,0,0,True,False
+AUS_ileum,AUS_enlarged pancreas,62,20,19,7,7,False,False
+AUS_ileum,AUS_splenomegaly,71,11,24,2,2,True,False
+AUS_ileum,AUS_ileus,75,7,26,0,0,True,False
+AUS_ileum,AUS_gall bladder sludge,70,12,21,5,5,False,False
+AUS_ileum,CBC_no abnormalities,21,61,8,18,8,False,False
+AUS_ileum,CBC_neutrophilia,81,1,25,1,1,True,True
+AUS_ileum,CBC_neutropenia,78,4,26,0,0,True,False
+AUS_ileum,CBC_eosinophilia,80,2,21,5,2,True,False
+AUS_ileum,CBC_eosinopenia,82,0,25,1,0,True,True
+AUS_ileum,CBC_basophilia,80,2,23,3,2,True,False
+AUS_ileum,CBC_basocytosis,81,1,26,0,0,True,True
+AUS_ileum,CBC_lymphocytosis,81,1,25,1,1,True,True
+AUS_ileum,CBC_lymphopenia,77,5,25,1,1,True,True
+AUS_ileum,CBC_monocytosis,74,8,22,4,4,True,False
+AUS_ileum,CBC_anemia,79,3,26,0,0,True,False
+AUS_ileum,chem_no abnormalities,36,46,8,18,8,False,False
+AUS_ileum,chem_hypoproteinemia,78,4,24,2,2,True,False
+AUS_ileum,chem_hyperproteinemia,75,7,26,0,0,True,True
+AUS_ileum,chem_decreased alt,82,0,24,2,0,True,True
+AUS_ileum,chem_elevated alt,73,9,26,0,0,True,False
+AUS_ileum,chem_elevated ast,80,2,26,0,0,True,False
+AUS_ileum,chem_elevated alp,82,0,25,1,0,True,True
+AUS_ileum,chem_elevated total bilirubin,80,2,26,0,0,True,True
+AUS_ileum,chem_azotemia,67,15,23,3,3,True,True
+AUS_ileum,chem_discordantly elevated bun,80,2,26,0,0,True,True
+AUS_ileum,chem_hyperglycemia,80,2,26,0,0,True,True
+AUS_ileum,chem_hypercholesterolemia,81,1,26,0,0,True,True
+AUS_ileum,chem_hypercalcemia,81,1,26,0,0,True,True
+AUS_ileum,chem_hypokalemia,77,5,25,1,1,True,True
+AUS_ileum,chem_hypophosphatemia,81,1,25,1,1,True,True
+AUS_colon,AUS_mesenteric lymphadenopathy,51,46,5,6,5,False,False
+AUS_colon,AUS_chronic degenerative renal changes,86,11,10,1,1,True,True
+AUS_colon,AUS_enlarged pancreas,71,26,10,1,1,True,True
+AUS_colon,AUS_splenomegaly,86,11,9,2,2,True,False
+AUS_colon,AUS_ileus,90,7,11,0,0,True,False
+AUS_colon,AUS_gall bladder sludge,83,14,8,3,3,True,False
+AUS_colon,CBC_no abnormalities,25,72,4,7,4,True,False
+AUS_colon,CBC_neutrophilia,95,2,11,0,0,True,True
+AUS_colon,CBC_neutropenia,93,4,11,0,0,True,False
+AUS_colon,CBC_eosinophilia,92,5,9,2,2,True,True
+AUS_colon,CBC_eosinopenia,97,0,10,1,0,True,True
+AUS_colon,CBC_basophilia,93,4,10,1,1,True,True
+AUS_colon,CBC_basocytosis,96,1,11,0,0,True,True
+AUS_colon,CBC_lymphocytosis,96,1,10,1,1,True,True
+AUS_colon,CBC_lymphopenia,92,5,10,1,1,True,True
+AUS_colon,CBC_monocytosis,87,10,9,2,2,True,True
+AUS_colon,CBC_anemia,94,3,11,0,0,True,False
+AUS_colon,chem_no abnormalities,41,56,3,8,3,True,False
+AUS_colon,chem_hypoproteinemia,91,6,11,0,0,True,False
+AUS_colon,chem_hyperproteinemia,90,7,11,0,0,True,True
+AUS_colon,chem_decreased alt,95,2,11,0,0,True,True
+AUS_colon,chem_elevated alt,89,8,10,1,1,True,True
+AUS_colon,chem_elevated ast,95,2,11,0,0,True,False
+AUS_colon,chem_elevated alp,96,1,11,0,0,True,True
+AUS_colon,chem_elevated total bilirubin,95,2,11,0,0,True,True
+AUS_colon,chem_azotemia,81,16,9,2,2,True,True
+AUS_colon,chem_discordantly elevated bun,95,2,11,0,0,True,True
+AUS_colon,chem_hyperglycemia,95,2,11,0,0,True,True
+AUS_colon,chem_hypercholesterolemia,96,1,11,0,0,True,True
+AUS_colon,chem_hypercalcemia,96,1,11,0,0,True,True
+AUS_colon,chem_hypokalemia,91,6,11,0,0,True,False
+AUS_colon,chem_hypophosphatemia,95,2,11,0,0,True,True
+AUS_mesenteric lymphadenopathy,AUS_chronic degenerative renal changes,51,5,45,7,5,False,False
+AUS_mesenteric lymphadenopathy,AUS_enlarged pancreas,41,15,40,12,12,False,False
+AUS_mesenteric lymphadenopathy,AUS_splenomegaly,51,5,44,8,5,False,False
+AUS_mesenteric lymphadenopathy,AUS_ileus,50,6,51,1,1,True,True
+AUS_mesenteric lymphadenopathy,AUS_gall bladder sludge,46,10,45,7,7,False,False
+AUS_mesenteric lymphadenopathy,CBC_no abnormalities,12,44,17,35,12,False,False
+AUS_mesenteric lymphadenopathy,CBC_neutrophilia,54,2,52,0,0,True,True
+AUS_mesenteric lymphadenopathy,CBC_neutropenia,54,2,50,2,2,True,True
+AUS_mesenteric lymphadenopathy,CBC_eosinophilia,54,2,47,5,2,True,False
+AUS_mesenteric lymphadenopathy,CBC_eosinopenia,55,1,52,0,0,True,True
+AUS_mesenteric lymphadenopathy,CBC_basophilia,54,2,49,3,2,True,False
+AUS_mesenteric lymphadenopathy,CBC_basocytosis,56,0,51,1,0,True,True
+AUS_mesenteric lymphadenopathy,CBC_lymphocytosis,55,1,51,1,1,True,True
+AUS_mesenteric lymphadenopathy,CBC_lymphopenia,52,4,50,2,2,True,True
+AUS_mesenteric lymphadenopathy,CBC_monocytosis,52,4,44,8,4,True,False
+AUS_mesenteric lymphadenopathy,CBC_anemia,54,2,51,1,1,True,True
+AUS_mesenteric lymphadenopathy,chem_no abnormalities,28,28,16,36,16,False,False
+AUS_mesenteric lymphadenopathy,chem_hypoproteinemia,54,2,48,4,2,True,True
+AUS_mesenteric lymphadenopathy,chem_hyperproteinemia,52,4,49,3,3,True,True
+AUS_mesenteric lymphadenopathy,chem_decreased alt,55,1,51,1,1,True,True
+AUS_mesenteric lymphadenopathy,chem_elevated alt,49,7,50,2,2,True,True
+AUS_mesenteric lymphadenopathy,chem_elevated ast,54,2,52,0,0,True,False
+AUS_mesenteric lymphadenopathy,chem_elevated alp,55,1,52,0,0,True,True
+AUS_mesenteric lymphadenopathy,chem_elevated total bilirubin,54,2,52,0,0,True,True
+AUS_mesenteric lymphadenopathy,chem_azotemia,46,10,44,8,8,False,False
+AUS_mesenteric lymphadenopathy,chem_discordantly elevated bun,55,1,51,1,1,True,True
+AUS_mesenteric lymphadenopathy,chem_hyperglycemia,54,2,52,0,0,True,True
+AUS_mesenteric lymphadenopathy,chem_hypercholesterolemia,56,0,51,1,0,True,True
+AUS_mesenteric lymphadenopathy,chem_hypercalcemia,56,0,51,1,0,True,True
+AUS_mesenteric lymphadenopathy,chem_hypokalemia,51,5,51,1,1,True,True
+AUS_mesenteric lymphadenopathy,chem_hypophosphatemia,54,2,52,0,0,True,True
+AUS_chronic degenerative renal changes,AUS_enlarged pancreas,72,24,9,3,3,True,True
+AUS_chronic degenerative renal changes,AUS_splenomegaly,85,11,10,2,2,True,False
+AUS_chronic degenerative renal changes,AUS_ileus,89,7,12,0,0,True,False
+AUS_chronic degenerative renal changes,AUS_gall bladder sludge,80,16,11,1,1,True,True
+AUS_chronic degenerative renal changes,CBC_no abnormalities,25,71,4,8,4,True,False
+AUS_chronic degenerative renal changes,CBC_neutrophilia,94,2,12,0,0,True,True
+AUS_chronic degenerative renal changes,CBC_neutropenia,94,2,10,2,2,True,True
+AUS_chronic degenerative renal changes,CBC_eosinophilia,89,7,12,0,0,True,False
+AUS_chronic degenerative renal changes,CBC_eosinopenia,95,1,12,0,0,True,True
+AUS_chronic degenerative renal changes,CBC_basophilia,91,5,12,0,0,True,False
+AUS_chronic degenerative renal changes,CBC_basocytosis,95,1,12,0,0,True,True
+AUS_chronic degenerative renal changes,CBC_lymphocytosis,94,2,12,0,0,True,True
+AUS_chronic degenerative renal changes,CBC_lymphopenia,91,5,11,1,1,True,True
+AUS_chronic degenerative renal changes,CBC_monocytosis,85,11,11,1,1,True,True
+AUS_chronic degenerative renal changes,CBC_anemia,94,2,11,1,1,True,True
+AUS_chronic degenerative renal changes,chem_no abnormalities,35,61,9,3,3,True,False
+AUS_chronic degenerative renal changes,chem_hypoproteinemia,92,4,10,2,2,True,False
+AUS_chronic degenerative renal changes,chem_hyperproteinemia,91,5,10,2,2,True,True
+AUS_chronic degenerative renal changes,chem_decreased alt,94,2,12,0,0,True,True
+AUS_chronic degenerative renal changes,chem_elevated alt,87,9,12,0,0,True,False
+AUS_chronic degenerative renal changes,chem_elevated ast,94,2,12,0,0,True,False
+AUS_chronic degenerative renal changes,chem_elevated alp,95,1,12,0,0,True,True
+AUS_chronic degenerative renal changes,chem_elevated total bilirubin,94,2,12,0,0,True,True
+AUS_chronic degenerative renal changes,chem_azotemia,83,13,7,5,5,False,False
+AUS_chronic degenerative renal changes,chem_discordantly elevated bun,95,1,11,1,1,True,True
+AUS_chronic degenerative renal changes,chem_hyperglycemia,94,2,12,0,0,True,True
+AUS_chronic degenerative renal changes,chem_hypercholesterolemia,95,1,12,0,0,True,True
+AUS_chronic degenerative renal changes,chem_hypercalcemia,96,0,11,1,0,True,True
+AUS_chronic degenerative renal changes,chem_hypokalemia,92,4,10,2,2,True,False
+AUS_chronic degenerative renal changes,chem_hypophosphatemia,94,2,12,0,0,True,True
+AUS_enlarged pancreas,AUS_splenomegaly,73,8,22,5,5,False,False
+AUS_enlarged pancreas,AUS_ileus,74,7,27,0,0,True,False
+AUS_enlarged pancreas,AUS_gall bladder sludge,68,13,23,4,4,True,True
+AUS_enlarged pancreas,CBC_no abnormalities,22,59,7,20,7,False,False
+AUS_enlarged pancreas,CBC_neutrophilia,80,1,26,1,1,True,True
+AUS_enlarged pancreas,CBC_neutropenia,78,3,26,1,1,True,True
+AUS_enlarged pancreas,CBC_eosinophilia,76,5,25,2,2,True,True
+AUS_enlarged pancreas,CBC_eosinopenia,80,1,27,0,0,True,True
+AUS_enlarged pancreas,CBC_basophilia,77,4,26,1,1,True,True
+AUS_enlarged pancreas,CBC_basocytosis,80,1,27,0,0,True,True
+AUS_enlarged pancreas,CBC_lymphocytosis,80,1,26,1,1,True,True
+AUS_enlarged pancreas,CBC_lymphopenia,76,5,26,1,1,True,True
+AUS_enlarged pancreas,CBC_monocytosis,72,9,24,3,3,True,True
+AUS_enlarged pancreas,CBC_anemia,78,3,27,0,0,True,False
+AUS_enlarged pancreas,chem_no abnormalities,33,48,11,16,11,False,False
+AUS_enlarged pancreas,chem_hypoproteinemia,77,4,25,2,2,True,True
+AUS_enlarged pancreas,chem_hyperproteinemia,76,5,25,2,2,True,True
+AUS_enlarged pancreas,chem_decreased alt,79,2,27,0,0,True,True
+AUS_enlarged pancreas,chem_elevated alt,77,4,22,5,4,True,True
+AUS_enlarged pancreas,chem_elevated ast,81,0,25,2,0,True,False
+AUS_enlarged pancreas,chem_elevated alp,80,1,27,0,0,True,True
+AUS_enlarged pancreas,chem_elevated total bilirubin,81,0,25,2,0,True,True
+AUS_enlarged pancreas,chem_azotemia,66,15,24,3,3,True,False
+AUS_enlarged pancreas,chem_discordantly elevated bun,79,2,27,0,0,True,True
+AUS_enlarged pancreas,chem_hyperglycemia,79,2,27,0,0,True,True
+AUS_enlarged pancreas,chem_hypercholesterolemia,80,1,27,0,0,True,True
+AUS_enlarged pancreas,chem_hypercalcemia,80,1,27,0,0,True,True
+AUS_enlarged pancreas,chem_hypokalemia,76,5,26,1,1,True,True
+AUS_enlarged pancreas,chem_hypophosphatemia,79,2,27,0,0,True,True
+AUS_splenomegaly,AUS_ileus,88,7,13,0,0,True,False
+AUS_splenomegaly,AUS_gall bladder sludge,82,13,9,4,4,True,False
+AUS_splenomegaly,CBC_no abnormalities,20,75,9,4,4,True,False
+AUS_splenomegaly,CBC_neutrophilia,94,1,12,1,1,True,True
+AUS_splenomegaly,CBC_neutropenia,92,3,12,1,1,True,True
+AUS_splenomegaly,CBC_eosinophilia,89,6,12,1,1,True,True
+AUS_splenomegaly,CBC_eosinopenia,95,0,12,1,0,True,True
+AUS_splenomegaly,CBC_basophilia,92,3,11,2,2,True,True
+AUS_splenomegaly,CBC_basocytosis,95,0,12,1,0,True,True
+AUS_splenomegaly,CBC_lymphocytosis,93,2,13,0,0,True,True
+AUS_splenomegaly,CBC_lymphopenia,92,3,10,3,3,True,True
+AUS_splenomegaly,CBC_monocytosis,87,8,9,4,4,True,True
+AUS_splenomegaly,CBC_anemia,92,3,13,0,0,True,False
+AUS_splenomegaly,chem_no abnormalities,39,56,5,8,5,False,False
+AUS_splenomegaly,chem_hypoproteinemia,89,6,13,0,0,True,False
+AUS_splenomegaly,chem_hyperproteinemia,88,7,13,0,0,True,True
+AUS_splenomegaly,chem_decreased alt,93,2,13,0,0,True,True
+AUS_splenomegaly,chem_elevated alt,86,9,13,0,0,True,False
+AUS_splenomegaly,chem_elevated ast,94,1,12,1,1,True,True
+AUS_splenomegaly,chem_elevated alp,94,1,13,0,0,True,True
+AUS_splenomegaly,chem_elevated total bilirubin,93,2,13,0,0,True,True
+AUS_splenomegaly,chem_azotemia,80,15,10,3,3,True,False
+AUS_splenomegaly,chem_discordantly elevated bun,94,1,12,1,1,True,True
+AUS_splenomegaly,chem_hyperglycemia,93,2,13,0,0,True,True
+AUS_splenomegaly,chem_hypercholesterolemia,94,1,13,0,0,True,True
+AUS_splenomegaly,chem_hypercalcemia,95,0,12,1,0,True,True
+AUS_splenomegaly,chem_hypokalemia,89,6,13,0,0,True,False
+AUS_splenomegaly,chem_hypophosphatemia,93,2,13,0,0,True,True
+AUS_ileus,AUS_gall bladder sludge,84,17,7,0,0,True,False
+AUS_ileus,CBC_no abnormalities,27,74,2,5,2,True,False
+AUS_ileus,CBC_neutrophilia,99,2,7,0,0,True,True
+AUS_ileus,CBC_neutropenia,97,4,7,0,0,True,False
+AUS_ileus,CBC_eosinophilia,95,6,6,1,1,True,True
+AUS_ileus,CBC_eosinopenia,100,1,7,0,0,True,True
+AUS_ileus,CBC_basophilia,96,5,7,0,0,True,False
+AUS_ileus,CBC_basocytosis,100,1,7,0,0,True,True
+AUS_ileus,CBC_lymphocytosis,99,2,7,0,0,True,True
+AUS_ileus,CBC_lymphopenia,95,6,7,0,0,True,False
+AUS_ileus,CBC_monocytosis,89,12,7,0,0,True,False
+AUS_ileus,CBC_anemia,99,2,6,1,1,True,True
+AUS_ileus,chem_no abnormalities,40,61,4,3,3,True,False
+AUS_ileus,chem_hypoproteinemia,95,6,7,0,0,True,False
+AUS_ileus,chem_hyperproteinemia,95,6,6,1,1,True,True
+AUS_ileus,chem_decreased alt,99,2,7,0,0,True,True
+AUS_ileus,chem_elevated alt,92,9,7,0,0,True,False
+AUS_ileus,chem_elevated ast,99,2,7,0,0,True,False
+AUS_ileus,chem_elevated alp,100,1,7,0,0,True,True
+AUS_ileus,chem_elevated total bilirubin,99,2,7,0,0,True,True
+AUS_ileus,chem_azotemia,84,17,6,1,1,True,True
+AUS_ileus,chem_discordantly elevated bun,99,2,7,0,0,True,True
+AUS_ileus,chem_hyperglycemia,101,0,5,2,0,True,True
+AUS_ileus,chem_hypercholesterolemia,100,1,7,0,0,True,True
+AUS_ileus,chem_hypercalcemia,100,1,7,0,0,True,True
+AUS_ileus,chem_hypokalemia,96,5,6,1,1,True,True
+AUS_ileus,chem_hypophosphatemia,99,2,7,0,0,True,True
+AUS_gall bladder sludge,CBC_no abnormalities,24,67,5,12,5,False,False
+AUS_gall bladder sludge,CBC_neutrophilia,89,2,17,0,0,True,True
+AUS_gall bladder sludge,CBC_neutropenia,88,3,16,1,1,True,True
+AUS_gall bladder sludge,CBC_eosinophilia,84,7,17,0,0,True,False
+AUS_gall bladder sludge,CBC_eosinopenia,91,0,16,1,0,True,True
+AUS_gall bladder sludge,CBC_basophilia,86,5,17,0,0,True,False
+AUS_gall bladder sludge,CBC_basocytosis,90,1,17,0,0,True,True
+AUS_gall bladder sludge,CBC_lymphocytosis,90,1,16,1,1,True,True
+AUS_gall bladder sludge,CBC_lymphopenia,87,4,15,2,2,True,True
+AUS_gall bladder sludge,CBC_monocytosis,81,10,15,2,2,True,False
+AUS_gall bladder sludge,CBC_anemia,88,3,17,0,0,True,False
+AUS_gall bladder sludge,chem_no abnormalities,40,51,4,13,4,True,False
+AUS_gall bladder sludge,chem_hypoproteinemia,85,6,17,0,0,True,False
+AUS_gall bladder sludge,chem_hyperproteinemia,85,6,16,1,1,True,True
+AUS_gall bladder sludge,chem_decreased alt,89,2,17,0,0,True,True
+AUS_gall bladder sludge,chem_elevated alt,82,9,17,0,0,True,False
+AUS_gall bladder sludge,chem_elevated ast,89,2,17,0,0,True,False
+AUS_gall bladder sludge,chem_elevated alp,90,1,17,0,0,True,True
+AUS_gall bladder sludge,chem_elevated total bilirubin,89,2,17,0,0,True,True
+AUS_gall bladder sludge,chem_azotemia,76,15,14,3,3,True,False
+AUS_gall bladder sludge,chem_discordantly elevated bun,89,2,17,0,0,True,True
+AUS_gall bladder sludge,chem_hyperglycemia,89,2,17,0,0,True,True
+AUS_gall bladder sludge,chem_hypercholesterolemia,90,1,17,0,0,True,True
+AUS_gall bladder sludge,chem_hypercalcemia,90,1,17,0,0,True,True
+AUS_gall bladder sludge,chem_hypokalemia,86,5,16,1,1,True,True
+AUS_gall bladder sludge,chem_hypophosphatemia,90,1,16,1,1,True,True
+CBC_no abnormalities,CBC_neutrophilia,27,2,79,0,0,True,True
+CBC_no abnormalities,CBC_neutropenia,25,4,79,0,0,True,False
+CBC_no abnormalities,CBC_eosinophilia,22,7,79,0,0,True,False
+CBC_no abnormalities,CBC_eosinopenia,28,1,79,0,0,True,True
+CBC_no abnormalities,CBC_basophilia,24,5,79,0,0,True,False
+CBC_no abnormalities,CBC_basocytosis,28,1,79,0,0,True,True
+CBC_no abnormalities,CBC_lymphocytosis,27,2,79,0,0,True,True
+CBC_no abnormalities,CBC_lymphopenia,23,6,79,0,0,True,False
+CBC_no abnormalities,CBC_monocytosis,17,12,79,0,0,True,False
+CBC_no abnormalities,CBC_anemia,26,3,79,0,0,True,False
+CBC_no abnormalities,chem_no abnormalities,15,14,29,50,14,False,False
+CBC_no abnormalities,chem_hypoproteinemia,26,3,76,3,3,True,False
+CBC_no abnormalities,chem_hyperproteinemia,26,3,75,4,3,True,True
+CBC_no abnormalities,chem_decreased alt,27,2,79,0,0,True,True
+CBC_no abnormalities,chem_elevated alt,27,2,72,7,2,True,True
+CBC_no abnormalities,chem_elevated ast,28,1,78,1,1,True,True
+CBC_no abnormalities,chem_elevated alp,29,0,78,1,0,True,True
+CBC_no abnormalities,chem_elevated total bilirubin,28,1,78,1,1,True,True
+CBC_no abnormalities,chem_azotemia,23,6,67,12,6,False,False
+CBC_no abnormalities,chem_discordantly elevated bun,29,0,77,2,0,True,True
+CBC_no abnormalities,chem_hyperglycemia,29,0,77,2,0,True,True
+CBC_no abnormalities,chem_hypercholesterolemia,29,0,78,1,0,True,True
+CBC_no abnormalities,chem_hypercalcemia,28,1,79,0,0,True,True
+CBC_no abnormalities,chem_hypokalemia,27,2,75,4,2,True,False
+CBC_no abnormalities,chem_hypophosphatemia,29,0,77,2,0,True,True
+CBC_neutrophilia,CBC_neutropenia,102,4,2,0,0,True,True
+CBC_neutrophilia,CBC_eosinophilia,100,6,1,1,1,True,True
+CBC_neutrophilia,CBC_eosinopenia,105,1,2,0,0,True,True
+CBC_neutrophilia,CBC_basophilia,102,4,1,1,1,True,True
+CBC_neutrophilia,CBC_basocytosis,105,1,2,0,0,True,True
+CBC_neutrophilia,CBC_lymphocytosis,104,2,2,0,0,True,True
+CBC_neutrophilia,CBC_lymphopenia,100,6,2,0,0,True,True
+CBC_neutrophilia,CBC_monocytosis,95,11,1,1,1,True,True
+CBC_neutrophilia,CBC_anemia,103,3,2,0,0,True,True
+CBC_neutrophilia,chem_no abnormalities,42,64,2,0,0,True,True
+CBC_neutrophilia,chem_hypoproteinemia,100,6,2,0,0,True,True
+CBC_neutrophilia,chem_hyperproteinemia,99,7,2,0,0,True,True
+CBC_neutrophilia,chem_decreased alt,105,1,1,1,1,True,True
+CBC_neutrophilia,chem_elevated alt,97,9,2,0,0,True,True
+CBC_neutrophilia,chem_elevated ast,104,2,2,0,0,True,True
+CBC_neutrophilia,chem_elevated alp,105,1,2,0,0,True,True
+CBC_neutrophilia,chem_elevated total bilirubin,104,2,2,0,0,True,True
+CBC_neutrophilia,chem_azotemia,89,17,1,1,1,True,True
+CBC_neutrophilia,chem_discordantly elevated bun,104,2,2,0,0,True,True
+CBC_neutrophilia,chem_hyperglycemia,104,2,2,0,0,True,True
+CBC_neutrophilia,chem_hypercholesterolemia,105,1,2,0,0,True,True
+CBC_neutrophilia,chem_hypercalcemia,105,1,2,0,0,True,True
+CBC_neutrophilia,chem_hypokalemia,100,6,2,0,0,True,True
+CBC_neutrophilia,chem_hypophosphatemia,104,2,2,0,0,True,True
+CBC_neutropenia,CBC_eosinophilia,97,7,4,0,0,True,False
+CBC_neutropenia,CBC_eosinopenia,103,1,4,0,0,True,True
+CBC_neutropenia,CBC_basophilia,99,5,4,0,0,True,False
+CBC_neutropenia,CBC_basocytosis,103,1,4,0,0,True,True
+CBC_neutropenia,CBC_lymphocytosis,102,2,4,0,0,True,True
+CBC_neutropenia,CBC_lymphopenia,100,4,2,2,2,True,True
+CBC_neutropenia,CBC_monocytosis,93,11,3,1,1,True,True
+CBC_neutropenia,CBC_anemia,102,2,3,1,1,True,True
+CBC_neutropenia,chem_no abnormalities,41,63,3,1,1,True,True
+CBC_neutropenia,chem_hypoproteinemia,98,6,4,0,0,True,False
+CBC_neutropenia,chem_hyperproteinemia,98,6,3,1,1,True,True
+CBC_neutropenia,chem_decreased alt,102,2,4,0,0,True,True
+CBC_neutropenia,chem_elevated alt,95,9,4,0,0,True,False
+CBC_neutropenia,chem_elevated ast,102,2,4,0,0,True,False
+CBC_neutropenia,chem_elevated alp,103,1,4,0,0,True,True
+CBC_neutropenia,chem_elevated total bilirubin,102,2,4,0,0,True,True
+CBC_neutropenia,chem_azotemia,87,17,3,1,1,True,True
+CBC_neutropenia,chem_discordantly elevated bun,102,2,4,0,0,True,True
+CBC_neutropenia,chem_hyperglycemia,102,2,4,0,0,True,True
+CBC_neutropenia,chem_hypercholesterolemia,103,1,4,0,0,True,True
+CBC_neutropenia,chem_hypercalcemia,103,1,4,0,0,True,True
+CBC_neutropenia,chem_hypokalemia,99,5,3,1,1,True,True
+CBC_neutropenia,chem_hypophosphatemia,102,2,4,0,0,True,True
+CBC_eosinophilia,CBC_eosinopenia,100,1,7,0,0,True,True
+CBC_eosinophilia,CBC_basophilia,99,2,4,3,2,True,False
+CBC_eosinophilia,CBC_basocytosis,100,1,7,0,0,True,True
+CBC_eosinophilia,CBC_lymphocytosis,99,2,7,0,0,True,True
+CBC_eosinophilia,CBC_lymphopenia,95,6,7,0,0,True,False
+CBC_eosinophilia,CBC_monocytosis,92,9,4,3,3,True,False
+CBC_eosinophilia,CBC_anemia,98,3,7,0,0,True,False
+CBC_eosinophilia,chem_no abnormalities,41,60,3,4,3,True,False
+CBC_eosinophilia,chem_hypoproteinemia,97,4,5,2,2,True,False
+CBC_eosinophilia,chem_hyperproteinemia,94,7,7,0,0,True,True
+CBC_eosinophilia,chem_decreased alt,101,0,5,2,0,True,True
+CBC_eosinophilia,chem_elevated alt,92,9,7,0,0,True,False
+CBC_eosinophilia,chem_elevated ast,99,2,7,0,0,True,False
+CBC_eosinophilia,chem_elevated alp,100,1,7,0,0,True,True
+CBC_eosinophilia,chem_elevated total bilirubin,99,2,7,0,0,True,True
+CBC_eosinophilia,chem_azotemia,83,18,7,0,0,True,False
+CBC_eosinophilia,chem_discordantly elevated bun,99,2,7,0,0,True,True
+CBC_eosinophilia,chem_hyperglycemia,99,2,7,0,0,True,True
+CBC_eosinophilia,chem_hypercholesterolemia,100,1,7,0,0,True,True
+CBC_eosinophilia,chem_hypercalcemia,100,1,7,0,0,True,True
+CBC_eosinophilia,chem_hypokalemia,95,6,7,0,0,True,False
+CBC_eosinophilia,chem_hypophosphatemia,99,2,7,0,0,True,True
+CBC_eosinopenia,CBC_basophilia,102,5,1,0,0,True,True
+CBC_eosinopenia,CBC_basocytosis,106,1,1,0,0,True,True
+CBC_eosinopenia,CBC_lymphocytosis,105,2,1,0,0,True,True
+CBC_eosinopenia,CBC_lymphopenia,102,5,0,1,0,True,True
+CBC_eosinopenia,CBC_monocytosis,95,12,1,0,0,True,True
+CBC_eosinopenia,CBC_anemia,104,3,1,0,0,True,True
+CBC_eosinopenia,chem_no abnormalities,44,63,0,1,0,True,True
+CBC_eosinopenia,chem_hypoproteinemia,101,6,1,0,0,True,True
+CBC_eosinopenia,chem_hyperproteinemia,100,7,1,0,0,True,True
+CBC_eosinopenia,chem_decreased alt,105,2,1,0,0,True,True
+CBC_eosinopenia,chem_elevated alt,98,9,1,0,0,True,True
+CBC_eosinopenia,chem_elevated ast,105,2,1,0,0,True,True
+CBC_eosinopenia,chem_elevated alp,106,1,1,0,0,True,True
+CBC_eosinopenia,chem_elevated total bilirubin,105,2,1,0,0,True,True
+CBC_eosinopenia,chem_azotemia,89,18,1,0,0,True,True
+CBC_eosinopenia,chem_discordantly elevated bun,105,2,1,0,0,True,True
+CBC_eosinopenia,chem_hyperglycemia,105,2,1,0,0,True,True
+CBC_eosinopenia,chem_hypercholesterolemia,106,1,1,0,0,True,True
+CBC_eosinopenia,chem_hypercalcemia,106,1,1,0,0,True,True
+CBC_eosinopenia,chem_hypokalemia,101,6,1,0,0,True,True
+CBC_eosinopenia,chem_hypophosphatemia,105,2,1,0,0,True,True
+CBC_basophilia,CBC_basocytosis,102,1,5,0,0,True,True
+CBC_basophilia,CBC_lymphocytosis,101,2,5,0,0,True,True
+CBC_basophilia,CBC_lymphopenia,97,6,5,0,0,True,False
+CBC_basophilia,CBC_monocytosis,94,9,2,3,2,True,False
+CBC_basophilia,CBC_anemia,100,3,5,0,0,True,False
+CBC_basophilia,chem_no abnormalities,42,61,2,3,2,True,True
+CBC_basophilia,chem_hypoproteinemia,98,5,4,1,1,True,True
+CBC_basophilia,chem_hyperproteinemia,96,7,5,0,0,True,True
+CBC_basophilia,chem_decreased alt,103,0,3,2,0,True,True
+CBC_basophilia,chem_elevated alt,94,9,5,0,0,True,False
+CBC_basophilia,chem_elevated ast,101,2,5,0,0,True,False
+CBC_basophilia,chem_elevated alp,102,1,5,0,0,True,True
+CBC_basophilia,chem_elevated total bilirubin,101,2,5,0,0,True,True
+CBC_basophilia,chem_azotemia,85,18,5,0,0,True,False
+CBC_basophilia,chem_discordantly elevated bun,101,2,5,0,0,True,True
+CBC_basophilia,chem_hyperglycemia,101,2,5,0,0,True,True
+CBC_basophilia,chem_hypercholesterolemia,102,1,5,0,0,True,True
+CBC_basophilia,chem_hypercalcemia,102,1,5,0,0,True,True
+CBC_basophilia,chem_hypokalemia,97,6,5,0,0,True,False
+CBC_basophilia,chem_hypophosphatemia,101,2,5,0,0,True,True
+CBC_basocytosis,CBC_lymphocytosis,105,2,1,0,0,True,True
+CBC_basocytosis,CBC_lymphopenia,102,5,0,1,0,True,True
+CBC_basocytosis,CBC_monocytosis,95,12,1,0,0,True,True
+CBC_basocytosis,CBC_anemia,104,3,1,0,0,True,True
+CBC_basocytosis,chem_no abnormalities,44,63,0,1,0,True,True
+CBC_basocytosis,chem_hypoproteinemia,101,6,1,0,0,True,True
+CBC_basocytosis,chem_hyperproteinemia,100,7,1,0,0,True,True
+CBC_basocytosis,chem_decreased alt,105,2,1,0,0,True,True
+CBC_basocytosis,chem_elevated alt,98,9,1,0,0,True,True
+CBC_basocytosis,chem_elevated ast,105,2,1,0,0,True,True
+CBC_basocytosis,chem_elevated alp,106,1,1,0,0,True,True
+CBC_basocytosis,chem_elevated total bilirubin,105,2,1,0,0,True,True
+CBC_basocytosis,chem_azotemia,89,18,1,0,0,True,True
+CBC_basocytosis,chem_discordantly elevated bun,105,2,1,0,0,True,True
+CBC_basocytosis,chem_hyperglycemia,105,2,1,0,0,True,True
+CBC_basocytosis,chem_hypercholesterolemia,106,1,1,0,0,True,True
+CBC_basocytosis,chem_hypercalcemia,106,1,1,0,0,True,True
+CBC_basocytosis,chem_hypokalemia,101,6,1,0,0,True,True
+CBC_basocytosis,chem_hypophosphatemia,105,2,1,0,0,True,True
+CBC_lymphocytosis,CBC_lymphopenia,100,6,2,0,0,True,True
+CBC_lymphocytosis,CBC_monocytosis,94,12,2,0,0,True,True
+CBC_lymphocytosis,CBC_anemia,103,3,2,0,0,True,True
+CBC_lymphocytosis,chem_no abnormalities,43,63,1,1,1,True,True
+CBC_lymphocytosis,chem_hypoproteinemia,100,6,2,0,0,True,True
+CBC_lymphocytosis,chem_hyperproteinemia,99,7,2,0,0,True,True
+CBC_lymphocytosis,chem_decreased alt,104,2,2,0,0,True,True
+CBC_lymphocytosis,chem_elevated alt,98,8,1,1,1,True,True
+CBC_lymphocytosis,chem_elevated ast,105,1,1,1,1,True,True
+CBC_lymphocytosis,chem_elevated alp,105,1,2,0,0,True,True
+CBC_lymphocytosis,chem_elevated total bilirubin,105,1,1,1,1,True,True
+CBC_lymphocytosis,chem_azotemia,88,18,2,0,0,True,True
+CBC_lymphocytosis,chem_discordantly elevated bun,104,2,2,0,0,True,True
+CBC_lymphocytosis,chem_hyperglycemia,104,2,2,0,0,True,True
+CBC_lymphocytosis,chem_hypercholesterolemia,105,1,2,0,0,True,True
+CBC_lymphocytosis,chem_hypercalcemia,105,1,2,0,0,True,True
+CBC_lymphocytosis,chem_hypokalemia,100,6,2,0,0,True,True
+CBC_lymphocytosis,chem_hypophosphatemia,104,2,2,0,0,True,True
+CBC_lymphopenia,CBC_monocytosis,90,12,6,0,0,True,False
+CBC_lymphopenia,CBC_anemia,99,3,6,0,0,True,False
+CBC_lymphopenia,chem_no abnormalities,42,60,2,4,2,True,False
+CBC_lymphopenia,chem_hypoproteinemia,96,6,6,0,0,True,False
+CBC_lymphopenia,chem_hyperproteinemia,95,7,6,0,0,True,True
+CBC_lymphopenia,chem_decreased alt,100,2,6,0,0,True,True
+CBC_lymphopenia,chem_elevated alt,94,8,5,1,1,True,True
+CBC_lymphopenia,chem_elevated ast,100,2,6,0,0,True,False
+CBC_lymphopenia,chem_elevated alp,101,1,6,0,0,True,True
+CBC_lymphopenia,chem_elevated total bilirubin,100,2,6,0,0,True,True
+CBC_lymphopenia,chem_azotemia,86,16,4,2,2,True,False
+CBC_lymphopenia,chem_discordantly elevated bun,100,2,6,0,0,True,True
+CBC_lymphopenia,chem_hyperglycemia,100,2,6,0,0,True,True
+CBC_lymphopenia,chem_hypercholesterolemia,101,1,6,0,0,True,True
+CBC_lymphopenia,chem_hypercalcemia,101,1,6,0,0,True,True
+CBC_lymphopenia,chem_hypokalemia,96,6,6,0,0,True,False
+CBC_lymphopenia,chem_hypophosphatemia,100,2,6,0,0,True,True
+CBC_monocytosis,CBC_anemia,94,2,11,1,1,True,True
+CBC_monocytosis,chem_no abnormalities,38,58,6,6,6,False,False
+CBC_monocytosis,chem_hypoproteinemia,91,5,11,1,1,True,True
+CBC_monocytosis,chem_hyperproteinemia,91,5,10,2,2,True,True
+CBC_monocytosis,chem_decreased alt,95,1,11,1,1,True,True
+CBC_monocytosis,chem_elevated alt,87,9,12,0,0,True,False
+CBC_monocytosis,chem_elevated ast,94,2,12,0,0,True,False
+CBC_monocytosis,chem_elevated alp,95,1,12,0,0,True,True
+CBC_monocytosis,chem_elevated total bilirubin,94,2,12,0,0,True,True
+CBC_monocytosis,chem_azotemia,80,16,10,2,2,True,True
+CBC_monocytosis,chem_discordantly elevated bun,94,2,12,0,0,True,True
+CBC_monocytosis,chem_hyperglycemia,94,2,12,0,0,True,True
+CBC_monocytosis,chem_hypercholesterolemia,95,1,12,0,0,True,True
+CBC_monocytosis,chem_hypercalcemia,96,0,11,1,0,True,True
+CBC_monocytosis,chem_hypokalemia,90,6,12,0,0,True,False
+CBC_monocytosis,chem_hypophosphatemia,94,2,12,0,0,True,True
+CBC_anemia,chem_no abnormalities,41,64,3,0,0,True,False
+CBC_anemia,chem_hypoproteinemia,99,6,3,0,0,True,False
+CBC_anemia,chem_hyperproteinemia,100,5,1,2,1,True,True
+CBC_anemia,chem_decreased alt,103,2,3,0,0,True,True
+CBC_anemia,chem_elevated alt,96,9,3,0,0,True,False
+CBC_anemia,chem_elevated ast,103,2,3,0,0,True,False
+CBC_anemia,chem_elevated alp,104,1,3,0,0,True,True
+CBC_anemia,chem_elevated total bilirubin,103,2,3,0,0,True,True
+CBC_anemia,chem_azotemia,88,17,2,1,1,True,True
+CBC_anemia,chem_discordantly elevated bun,103,2,3,0,0,True,True
+CBC_anemia,chem_hyperglycemia,103,2,3,0,0,True,True
+CBC_anemia,chem_hypercholesterolemia,104,1,3,0,0,True,True
+CBC_anemia,chem_hypercalcemia,104,1,3,0,0,True,True
+CBC_anemia,chem_hypokalemia,100,5,2,1,1,True,True
+CBC_anemia,chem_hypophosphatemia,103,2,3,0,0,True,True
+chem_no abnormalities,chem_hypoproteinemia,38,6,64,0,0,True,False
+chem_no abnormalities,chem_hyperproteinemia,37,7,64,0,0,True,True
+chem_no abnormalities,chem_decreased alt,42,2,64,0,0,True,True
+chem_no abnormalities,chem_elevated alt,35,9,64,0,0,True,False
+chem_no abnormalities,chem_elevated ast,42,2,64,0,0,True,False
+chem_no abnormalities,chem_elevated alp,43,1,64,0,0,True,True
+chem_no abnormalities,chem_elevated total bilirubin,42,2,64,0,0,True,True
+chem_no abnormalities,chem_azotemia,26,18,64,0,0,True,False
+chem_no abnormalities,chem_discordantly elevated bun,42,2,64,0,0,True,True
+chem_no abnormalities,chem_hyperglycemia,42,2,64,0,0,True,True
+chem_no abnormalities,chem_hypercholesterolemia,43,1,64,0,0,True,True
+chem_no abnormalities,chem_hypercalcemia,43,1,64,0,0,True,True
+chem_no abnormalities,chem_hypokalemia,38,6,64,0,0,True,False
+chem_no abnormalities,chem_hypophosphatemia,42,2,64,0,0,True,True
+chem_hypoproteinemia,chem_hyperproteinemia,95,7,6,0,0,True,True
+chem_hypoproteinemia,chem_decreased alt,101,1,5,1,1,True,True
+chem_hypoproteinemia,chem_elevated alt,93,9,6,0,0,True,False
+chem_hypoproteinemia,chem_elevated ast,100,2,6,0,0,True,False
+chem_hypoproteinemia,chem_elevated alp,101,1,6,0,0,True,True
+chem_hypoproteinemia,chem_elevated total bilirubin,100,2,6,0,0,True,True
+chem_hypoproteinemia,chem_azotemia,86,16,4,2,2,True,False
+chem_hypoproteinemia,chem_discordantly elevated bun,100,2,6,0,0,True,True
+chem_hypoproteinemia,chem_hyperglycemia,100,2,6,0,0,True,True
+chem_hypoproteinemia,chem_hypercholesterolemia,101,1,6,0,0,True,True
+chem_hypoproteinemia,chem_hypercalcemia,101,1,6,0,0,True,True
+chem_hypoproteinemia,chem_hypokalemia,96,6,6,0,0,True,False
+chem_hypoproteinemia,chem_hypophosphatemia,100,2,6,0,0,True,True
+chem_hyperproteinemia,chem_decreased alt,99,2,7,0,0,True,True
+chem_hyperproteinemia,chem_elevated alt,93,8,6,1,1,True,True
+chem_hyperproteinemia,chem_elevated ast,99,2,7,0,0,True,True
+chem_hyperproteinemia,chem_elevated alp,100,1,7,0,0,True,True
+chem_hyperproteinemia,chem_elevated total bilirubin,99,2,7,0,0,True,True
+chem_hyperproteinemia,chem_azotemia,84,17,6,1,1,True,True
+chem_hyperproteinemia,chem_discordantly elevated bun,99,2,7,0,0,True,True
+chem_hyperproteinemia,chem_hyperglycemia,99,2,7,0,0,True,True
+chem_hyperproteinemia,chem_hypercholesterolemia,101,0,6,1,0,True,True
+chem_hyperproteinemia,chem_hypercalcemia,100,1,7,0,0,True,True
+chem_hyperproteinemia,chem_hypokalemia,96,5,6,1,1,True,True
+chem_hyperproteinemia,chem_hypophosphatemia,99,2,7,0,0,True,True
+chem_decreased alt,chem_elevated alt,97,9,2,0,0,True,True
+chem_decreased alt,chem_elevated ast,104,2,2,0,0,True,True
+chem_decreased alt,chem_elevated alp,105,1,2,0,0,True,True
+chem_decreased alt,chem_elevated total bilirubin,104,2,2,0,0,True,True
+chem_decreased alt,chem_azotemia,88,18,2,0,0,True,True
+chem_decreased alt,chem_discordantly elevated bun,104,2,2,0,0,True,True
+chem_decreased alt,chem_hyperglycemia,104,2,2,0,0,True,True
+chem_decreased alt,chem_hypercholesterolemia,105,1,2,0,0,True,True
+chem_decreased alt,chem_hypercalcemia,105,1,2,0,0,True,True
+chem_decreased alt,chem_hypokalemia,100,6,2,0,0,True,True
+chem_decreased alt,chem_hypophosphatemia,104,2,2,0,0,True,True
+chem_elevated alt,chem_elevated ast,98,1,8,1,1,True,True
+chem_elevated alt,chem_elevated alp,98,1,9,0,0,True,True
+chem_elevated alt,chem_elevated total bilirubin,99,0,7,2,0,True,True
+chem_elevated alt,chem_azotemia,83,16,7,2,2,True,True
+chem_elevated alt,chem_discordantly elevated bun,97,2,9,0,0,True,True
+chem_elevated alt,chem_hyperglycemia,97,2,9,0,0,True,True
+chem_elevated alt,chem_hypercholesterolemia,98,1,9,0,0,True,True
+chem_elevated alt,chem_hypercalcemia,98,1,9,0,0,True,True
+chem_elevated alt,chem_hypokalemia,94,5,8,1,1,True,True
+chem_elevated alt,chem_hypophosphatemia,97,2,9,0,0,True,True
+chem_elevated ast,chem_elevated alp,105,1,2,0,0,True,True
+chem_elevated ast,chem_elevated total bilirubin,105,1,1,1,1,True,True
+chem_elevated ast,chem_azotemia,88,18,2,0,0,True,False
+chem_elevated ast,chem_discordantly elevated bun,104,2,2,0,0,True,True
+chem_elevated ast,chem_hyperglycemia,104,2,2,0,0,True,True
+chem_elevated ast,chem_hypercholesterolemia,105,1,2,0,0,True,True
+chem_elevated ast,chem_hypercalcemia,105,1,2,0,0,True,True
+chem_elevated ast,chem_hypokalemia,100,6,2,0,0,True,False
+chem_elevated ast,chem_hypophosphatemia,104,2,2,0,0,True,True
+chem_elevated alp,chem_elevated total bilirubin,105,2,1,0,0,True,True
+chem_elevated alp,chem_azotemia,89,18,1,0,0,True,True
+chem_elevated alp,chem_discordantly elevated bun,105,2,1,0,0,True,True
+chem_elevated alp,chem_hyperglycemia,105,2,1,0,0,True,True
+chem_elevated alp,chem_hypercholesterolemia,106,1,1,0,0,True,True
+chem_elevated alp,chem_hypercalcemia,106,1,1,0,0,True,True
+chem_elevated alp,chem_hypokalemia,101,6,1,0,0,True,True
+chem_elevated alp,chem_hypophosphatemia,105,2,1,0,0,True,True
+chem_elevated total bilirubin,chem_azotemia,89,17,1,1,1,True,True
+chem_elevated total bilirubin,chem_discordantly elevated bun,104,2,2,0,0,True,True
+chem_elevated total bilirubin,chem_hyperglycemia,104,2,2,0,0,True,True
+chem_elevated total bilirubin,chem_hypercholesterolemia,105,1,2,0,0,True,True
+chem_elevated total bilirubin,chem_hypercalcemia,105,1,2,0,0,True,True
+chem_elevated total bilirubin,chem_hypokalemia,100,6,2,0,0,True,True
+chem_elevated total bilirubin,chem_hypophosphatemia,104,2,2,0,0,True,True
+chem_azotemia,chem_discordantly elevated bun,88,2,18,0,0,True,True
+chem_azotemia,chem_hyperglycemia,88,2,18,0,0,True,True
+chem_azotemia,chem_hypercholesterolemia,89,1,18,0,0,True,True
+chem_azotemia,chem_hypercalcemia,90,0,17,1,0,True,True
+chem_azotemia,chem_hypokalemia,85,5,17,1,1,True,True
+chem_azotemia,chem_hypophosphatemia,88,2,18,0,0,True,True
+chem_discordantly elevated bun,chem_hyperglycemia,104,2,2,0,0,True,True
+chem_discordantly elevated bun,chem_hypercholesterolemia,105,1,2,0,0,True,True
+chem_discordantly elevated bun,chem_hypercalcemia,105,1,2,0,0,True,True
+chem_discordantly elevated bun,chem_hypokalemia,100,6,2,0,0,True,True
+chem_discordantly elevated bun,chem_hypophosphatemia,104,2,2,0,0,True,True
+chem_hyperglycemia,chem_hypercholesterolemia,105,1,2,0,0,True,True
+chem_hyperglycemia,chem_hypercalcemia,105,1,2,0,0,True,True
+chem_hyperglycemia,chem_hypokalemia,101,5,1,1,1,True,True
+chem_hyperglycemia,chem_hypophosphatemia,104,2,2,0,0,True,True
+chem_hypercholesterolemia,chem_hypercalcemia,106,1,1,0,0,True,True
+chem_hypercholesterolemia,chem_hypokalemia,101,6,1,0,0,True,True
+chem_hypercholesterolemia,chem_hypophosphatemia,105,2,1,0,0,True,True
+chem_hypercalcemia,chem_hypokalemia,101,6,1,0,0,True,True
+chem_hypercalcemia,chem_hypophosphatemia,105,2,1,0,0,True,True
+chem_hypokalemia,chem_hypophosphatemia,102,0,4,2,0,True,True

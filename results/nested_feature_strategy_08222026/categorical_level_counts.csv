@@ -1,0 +1,7 @@
+feature,level,count,target_0,target_1,rare_level_flag
+breed_group,DLH,10,3,7,False
+breed_group,DMH,9,5,4,False
+breed_group,DSH,71,20,51,False
+breed_group,other,18,6,12,False
+procedure_clean,other,25,11,14,False
+procedure_clean,upper,83,23,60,False
