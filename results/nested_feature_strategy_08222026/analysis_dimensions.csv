@@ -1,0 +1,6 @@
+quantity,value
+n_rows,108
+n_candidates,52
+n_single_models_per_outer_fold,52
+n_pair_models_per_outer_fold,1326
+n_triple_models_per_outer_fold,0

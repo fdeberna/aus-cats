@@ -1,0 +1,13 @@
+feature,times_in_selected_pair,fraction_of_selected_pairs
+age,12,0.48
+AUS_enlarged pancreas,9,0.36
+chem_hyperproteinemia,7,0.28
+tli_high,6,0.24
+clinical signs_hyporexia,5,0.2
+AUS_splenomegaly,3,0.12
+chem_no abnormalities,2,0.08
+CBC_neutrophilia,2,0.08
+chem_azotemia,1,0.04
+AUS_mesenteric lymphadenopathy,1,0.04
+clinical signs_diarrhea,1,0.04
+clinical signs_weight loss,1,0.04

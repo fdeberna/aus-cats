@@ -4,8 +4,8 @@ import pandas as pd
 import numpy as np
 import re
 
-INPUT_FILE = "data/cases.csv"
-OUTPUT_FILE = "data/cases_cleaned.csv"
+INPUT_FILE = "data/Cases_08222026.csv"
+OUTPUT_FILE = "data/cases_cleaned_08222026.csv"
 
 
 def parse_numeric(x):
@@ -22,8 +22,19 @@ def parse_numeric(x):
 def main():
     df = pd.read_csv(INPUT_FILE)
 
+    if "Unnamed: 0" in df.columns and "Name" not in df.columns:
+        df = df.rename(columns={"Unnamed: 0": "Name"})
+
     # Keep only IBD and low grade lymphoma
-    df = df[df["shorthand dx"].isin(["IBD", "low grade lymphoma"])].copy()
+    dx = df["shorthand dx"].str.lower().str.strip()
+    df = df[dx.isin(["ibd", "low grade lymphoma"])].copy()
+    dx = df["shorthand dx"].str.lower().str.strip()
+
+    df["shorthand dx"] = np.where(
+        dx == "ibd",
+        "IBD",
+        "low grade lymphoma"
+    )
 
     # Binary target
     df["target"] = (df["shorthand dx"] == "low grade lymphoma").astype(int)

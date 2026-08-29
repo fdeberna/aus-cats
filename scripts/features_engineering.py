@@ -1,141 +1,116 @@
 # feature_engineering.py
 
 import pandas as pd
-import numpy as np
 import re
 
-INPUT_FILE = "data/cases_cleaned.csv"
-OUTPUT_FILE = "data/cases_features_v2.csv"
-
-MIN_TOKEN_COUNT = 5
-
-REMOVE_WORDS = {"mild", "moderate", "severe", "marked"}
-
-# --------------------------------------------------
-# Allowed AUS Structures
-# --------------------------------------------------
-
-AUS_STRUCTURES = [
-    "duodenum",
-    "jejunum",
-    "ileum",
-    "colon",
-    "mesenteric lymphadenopathy",
-    "kidneys",
-    "pancreas",
-    "splenomegaly",
-    "ileus",
-    "gall bladder",
-    "wnl"
-]
+INPUT_FILE = "data/cases_cleaned_08222026.csv"
+OUTPUT_FILE = "data/cases_features_08222026.csv"
 
 
 # --------------------------------------------------
-# Clinical Sign Normalization
+# Requested Text Feature Patterns
 # --------------------------------------------------
 
-def normalize_clinical_token(token: str):
+REQUESTED_FEATURE_PATTERNS = {
+    "clinical signs": [
+        ("none", [r"\bnone\b"]),
+        ("vomiting", [r"\bvomiting\b"]),
+        ("diarrhea", [r"\bdiarrhea\b"]),
+        ("hyporexia", [r"\bhyporexia\b"]),
+        ("weight loss", [r"\bweight loss\b"]),
+        ("hairball obstruction", [r"\bhairball obstruction\b"]),
+        ("constipation", [r"\bconstipation\b"]),
+    ],
+    "AUS": [
+        ("no abnormalities", [r"\bwnl\b", r"\bno abnormalities\b"]),
+        ("duodenum", [r"\bduodenum\b", r"\bduodenun\b", r"\bdudenum\b"]),
+        ("jejunum", [r"\bjejunum\b", r"\bjeunum\b"]),
+        ("ileum", [r"\bileum\b"]),
+        ("colon", [r"\bcolon\b"]),
+        (
+            "mesenteric lymphadenopathy",
+            [r"\bmesenteric lymphadenopathy\b", r"\bmeseneteric lymphadenopathy\b"],
+        ),
+        (
+            "chronic degenerative renal changes",
+            [
+                r"\bchronic degenerative renal changes\b",
+                r"\bchronic degenerative changes to kidneys\b",
+            ],
+        ),
+        ("enlarged pancreas", [r"\benlarged pancreas\b"]),
+        ("splenomegaly", [r"\bsplenomegaly\b"]),
+        ("ileus", [r"\bileus\b"]),
+        ("gall bladder sludge", [r"\bgall bladder sludge\b"]),
+    ],
+    "CBC": [
+        ("no abnormalities", [r"\bwnl\b", r"\bno abnormalities\b"]),
+        ("neutrophilia", [r"\bneutrophilia\b"]),
+        ("neutropenia", [r"\bneutropenia\b"]),
+        ("eosinophilia", [r"\beosinophilia\b"]),
+        ("eosinopenia", [r"\beosinopenia\b"]),
+        ("basophilia", [r"\bbasophilia\b"]),
+        ("basocytosis", [r"\bbasocytosis\b"]),
+        ("lymphocytosis", [r"\blymphocytosis\b"]),
+        ("lymphopenia", [r"\blymphopenia\b"]),
+        ("monocytosis", [r"\bmonocytosis\b"]),
+        ("anemia", [r"\banemia\b"]),
+    ],
+    "chem": [
+        ("no abnormalities", [r"\bwnl\b", r"\bno abnormalities\b"]),
+        ("hypoproteinemia", [r"\bhypoproteinemia\b"]),
+        ("hyperproteinemia", [r"\bhyperproteinemia\b"]),
+        ("decreased alt", [r"\bdecreased alt\b"]),
+        ("elevated alt", [r"\belevated alt\b", r"\balt\b.*\belevated\b"]),
+        ("elevated ast", [r"\belevated ast\b", r"\bast\b.*\belevated\b"]),
+        ("elevated alp", [r"\belevated alp\b", r"\balp\b.*\belevated\b"]),
+        (
+            "elevated total bilirubin",
+            [
+                r"\belevated total bilirubin\b",
+                r"\btbili\b",
+                r"\btibil\b.*\belevated\b",
+                r"\bbilirubin\b.*\belevated\b",
+            ],
+        ),
+        ("azotemia", [r"\bazotemia\b"]),
+        ("discordantly elevated bun", [r"\bdiscordantly elevated bun\b", r"\belevated bun\b"]),
+        ("hyperglycemia", [r"\bhyperglycemia\b"]),
+        ("hypercholesterolemia", [r"\bhypercholesterolemia\b"]),
+        ("hypercalcemia", [r"\bhypercalcemia\b"]),
+        ("hypokalemia", [r"\bhypokalemia\b"]),
+        ("hypophosphatemia", [r"\bhypophosphatemia\b"]),
+    ],
+}
 
-    token = token.strip()
 
-    # Ignore elevated liver value
-    if "liver" in token and "elevated" in token:
-        return None
-
-    # Normalize vomiting
-    if "vomiting" in token:
-        return "vomiting"
-
-    # Normalize anorexia/inappetence
-    if "inappetence" in token or "anorexia" in token:
-        return "anorexia"
-
-    return token
-
-
-# --------------------------------------------------
-# AUS Standardization
-# --------------------------------------------------
-
-def extract_aus_structures(text):
-    """
-    Extract only allowed anatomical structures from AUS.
-    Ignore descriptors like thickened, chronic, enlarged, etc.
-    """
-
+def text_has_pattern(text, patterns):
     if pd.isna(text):
-        return []
+        return False
 
-    text = text.lower()
-
-    found = []
-
-    # Special rule: if WNL appears → treat as normal only
-    if "wnl" in text:
-        return ["wnl"]
-
-    for structure in AUS_STRUCTURES:
-        if structure == "wnl":
-            continue
-
-        if structure in text:
-            found.append(structure)
-
-    return list(set(found))
+    normalized = re.sub(r"\s+", " ", str(text).lower())
+    return any(re.search(pattern, normalized) for pattern in patterns)
 
 
-# --------------------------------------------------
-# Generic Multi-Label Tokenizer (for CBC, chem, clinical signs)
-# --------------------------------------------------
-
-def tokenize_multilabel(text, is_clinical=False):
-
-    if pd.isna(text):
-        return []
-
-    text = text.lower()
-    parts = re.split(r",|\n|;", text)
-
-    cleaned = []
-
-    for p in parts:
-        p = p.strip()
-        p = re.sub(r"\s+", " ", p)
-
-        words = [w for w in p.split() if w not in REMOVE_WORDS]
-        token = " ".join(words)
-
-        if not token:
-            continue
-
-        if is_clinical:
-            token = normalize_clinical_token(token)
-
-        if token:
-            cleaned.append(token)
-
-    return list(set(cleaned))
+def extract_requested_terms(text, term_patterns):
+    return [
+        label
+        for label, patterns in term_patterns
+        if text_has_pattern(text, patterns)
+    ]
 
 
-# --------------------------------------------------
-# Expand Tokens into Binary Columns
-# --------------------------------------------------
-
-def expand_tokens(df, column, min_count=5, is_clinical=False):
-
+def expand_requested_terms(df, column):
+    term_patterns = REQUESTED_FEATURE_PATTERNS[column]
     token_col = column + "_tokens"
 
     df[token_col] = df[column].apply(
-        lambda x: tokenize_multilabel(x, is_clinical=is_clinical)
+        lambda x: extract_requested_terms(x, term_patterns)
     )
 
-    all_tokens = df[token_col].explode()
-    counts = all_tokens.value_counts()
-    valid_tokens = counts[counts >= min_count].index
-
-    for token in valid_tokens:
-        df[f"{column}_{token}"] = df[token_col].apply(
-            lambda x: int(token in x)
+    for label, _ in term_patterns:
+        df[f"{column}_{label}"] = df[token_col].apply(
+            lambda x: int(label in x)
         )
 
     return df
@@ -203,33 +178,11 @@ def main():
     })
 
     # -------------------------------
-    # AUS Standardized Expansion
+    # Requested Text Feature Expansion
     # -------------------------------
 
-    df["AUS_tokens"] = df["AUS"].apply(extract_aus_structures)
-
-    for structure in AUS_STRUCTURES:
-        df[f"AUS_{structure}"] = df["AUS_tokens"].apply(
-            lambda x: int(structure in x)
-        )
-
-    # -------------------------------
-    # CBC + chem (standard expansion)
-    # -------------------------------
-
-    for col in ["CBC", "chem"]:
-        df = expand_tokens(df, col, min_count=MIN_TOKEN_COUNT)
-
-    # -------------------------------
-    # Clinical signs (with normalization)
-    # -------------------------------
-
-    df = expand_tokens(
-        df,
-        "clinical signs",
-        min_count=MIN_TOKEN_COUNT,
-        is_clinical=True
-    )
+    for col in ["clinical signs", "AUS", "CBC", "chem"]:
+        df = expand_requested_terms(df, col)
 
     # -------------------------------
     # Save Output

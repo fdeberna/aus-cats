@@ -1,0 +1,3 @@
+feature,reason,n_unique,n_missing
+tli_low,excluded_no_variation,1,0
+male,excluded_not_requested_and_no_variation_in_new_file,1,0
