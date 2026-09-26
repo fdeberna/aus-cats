@@ -1,0 +1,7 @@
+feature,raw_measurement,n_raw_missing,n_flag_missing_before,n_positive_before,n_flag_missing_after,n_positive_after,correction
+cobalamin_low,cobalamin (290-1500),18,0,34,18,34,raw_missing_set_to_feature_missing_not_normal
+folate_high,folate (9.7-21.6),18,0,31,18,31,raw_missing_set_to_feature_missing_not_normal
+folate_low,folate (9.7-21.6),18,0,5,18,5,raw_missing_set_to_feature_missing_not_normal
+tli_high,TLI (12-82),21,0,27,21,27,raw_missing_set_to_feature_missing_not_normal
+tli_low,TLI (12-82),21,0,0,21,0,raw_missing_set_to_feature_missing_not_normal
+pli_abn,PLI (<= 4.4),22,0,15,22,15,raw_missing_set_to_feature_missing_not_normal

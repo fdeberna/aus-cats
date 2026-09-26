@@ -1,0 +1,28 @@
+group,group_n,measure,most_common_finding_or_status,count,denominator,percent
+Overall,108,Most common clinical sign,vomiting,66,108,61.1
+Overall,108,Most common clinical sign pair,vomiting + weight loss,33,108,30.6
+Overall,108,Most common CBC finding,no abnormalities,79,108,73.1
+Overall,108,Most common biochemistry abnormality,azotemia,18,108,16.7
+Overall,108,Most common ultrasonographic abnormality,duodenum,74,108,68.5
+Overall,108,Most common cobalamin status,normal,77,90,85.6
+Overall,108,Most common folate status,normal,54,90,60.0
+Overall,108,Most common TLI status,normal,60,87,69.0
+Overall,108,Most common PLI status,normal,71,86,82.6
+IBD,34,Most common clinical sign,vomiting,23,34,67.6
+IBD,34,Most common clinical sign pair,vomiting + weight loss,10,34,29.4
+IBD,34,Most common CBC finding,no abnormalities,24,34,70.6
+IBD,34,Most common biochemistry abnormality,azotemia,6,34,17.6
+IBD,34,Most common ultrasonographic abnormality,jejunum,23,34,67.6
+IBD,34,Most common cobalamin status,normal,26,28,92.9
+IBD,34,Most common folate status,normal,19,28,67.9
+IBD,34,Most common TLI status,normal,22,26,84.6
+IBD,34,Most common PLI status,normal,20,25,80.0
+Lymphoma,74,Most common clinical sign,vomiting,43,74,58.1
+Lymphoma,74,Most common clinical sign pair,vomiting + weight loss,23,74,31.1
+Lymphoma,74,Most common CBC finding,no abnormalities,55,74,74.3
+Lymphoma,74,Most common biochemistry abnormality,azotemia,12,74,16.2
+Lymphoma,74,Most common ultrasonographic abnormality,duodenum,53,74,71.6
+Lymphoma,74,Most common cobalamin status,normal,51,62,82.3
+Lymphoma,74,Most common folate status,normal,35,62,56.5
+Lymphoma,74,Most common TLI status,normal,38,61,62.3
+Lymphoma,74,Most common PLI status,normal,51,61,83.6

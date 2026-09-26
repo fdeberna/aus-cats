@@ -1,0 +1,13 @@
+group,group_n,category,most_common_pair,count,denominator,percent
+Overall,108,Clinical signs,vomiting + weight loss,33,108,30.6
+Overall,108,CBC abnormalities,basophilia + eosinophilia; basophilia + monocytosis; eosinophilia + monocytosis,3,108,2.8
+Overall,108,Biochemistry abnormalities,azotemia + elevated alt; azotemia + hypoproteinemia; elevated alt + elevated total bilirubin; hypokalemia + hypophosphatemia,2,108,1.9
+Overall,108,Ultrasonographic abnormalities,duodenum + jejunum,54,108,50.0
+IBD,34,Clinical signs,vomiting + weight loss,10,34,29.4
+IBD,34,CBC abnormalities,basophilia + eosinophilia; basophilia + monocytosis,2,34,5.9
+IBD,34,Biochemistry abnormalities,azotemia + hypokalemia; azotemia + hypoproteinemia; decreased alt + hypoproteinemia; hyperglycemia + hypokalemia,1,34,2.9
+IBD,34,Ultrasonographic abnormalities,duodenum + jejunum,17,34,50.0
+Lymphoma,74,Clinical signs,vomiting + weight loss,23,74,31.1
+Lymphoma,74,CBC abnormalities,eosinophilia + monocytosis,2,74,2.7
+Lymphoma,74,Biochemistry abnormalities,azotemia + elevated alt; elevated alt + elevated total bilirubin; hypokalemia + hypophosphatemia,2,74,2.7
+Lymphoma,74,Ultrasonographic abnormalities,duodenum + jejunum,37,74,50.0
